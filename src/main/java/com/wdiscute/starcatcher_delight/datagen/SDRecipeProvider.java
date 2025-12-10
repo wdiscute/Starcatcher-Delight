@@ -46,7 +46,7 @@ public class SDRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output);
 
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.MAGMA_FISH_BALLS.get(), 4, FAST_COOKING, SMALL_EXP)
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.MAGMA_FISH_BALLS.get(), 4, SLOW_COOKING, MEDIUM_EXP)
                 .addIngredient(ModItems.MAGMA_FISH)
                 .addIngredient(TOMATO_SAUCE.get())
                 .addIngredient(CommonTags.FOODS_DOUGH)
