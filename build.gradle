@@ -22,11 +22,18 @@ repositories {
         name = "Modrinth"
         url = "https://api.modrinth.com/maven"
     }
+    maven {
+        name = "TerraformersMC"
+        url = "https://maven.terraformersmc.com/"
+    }
 }
 
 dependencies {
     implementation("maven.modrinth:farmers-delight:${farmersdelight_version}")
     implementation("maven.modrinth:starcatcher:${starcatcher_version}")
+
+    compileOnly("dev.emi:emi-neoforge:${emi_version}:api")
+    runtimeOnly("dev.emi:emi-neoforge:${emi_version}")
 }
 
 base {
