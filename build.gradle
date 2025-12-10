@@ -26,6 +26,10 @@ repositories {
         name = "TerraformersMC"
         url = "https://maven.terraformersmc.com/"
     }
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
 }
 
 dependencies {
@@ -34,6 +38,9 @@ dependencies {
 
     compileOnly("dev.emi:emi-neoforge:${emi_version}:api")
     runtimeOnly("dev.emi:emi-neoforge:${emi_version}")
+
+    compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
+    runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
 }
 
 base {
