@@ -1,6 +1,6 @@
 package com.wdiscute.starcatcher_delight.items;
 
-import com.wdiscute.starcatcher_delight.registry.ModFoods;
+import com.wdiscute.starcatcher_delight.registry.SDFoods;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 public class CactiFishStewItem extends Item {
 
     public CactiFishStewItem(Properties properties) {
-        super(properties.food(ModFoods.CACTIFISH_STEW));
+        super(properties.food(SDFoods.CACTIFISH_STEW));
     }
 
     @Override

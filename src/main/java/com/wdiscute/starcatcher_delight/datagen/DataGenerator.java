@@ -5,6 +5,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
@@ -20,7 +21,12 @@ public class DataGenerator {
         ExistingFileHelper helper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
-        gen.addProvider(event.includeServer(), new ModItemModelProvider(output, helper));
-        gen.addProvider(event.includeServer(), new ModRecipeProvider(output, lookupProvider));
+        gen.addProvider(event.includeServer(), new SDItemModelProvider(output, helper));
+        gen.addProvider(event.includeServer(), new SDRecipeProvider(output, lookupProvider));
+
+        BlockTagsProvider blockTagsProvider = new SDBlockTagsProvider(output, lookupProvider, helper);
+        gen.addProvider(event.includeServer(), blockTagsProvider);
+
+        gen.addProvider(event.includeServer(), new SDItemTagsProvider(output, lookupProvider, blockTagsProvider.contentsGetter(), helper));
     }
 }

@@ -1,7 +1,7 @@
 package com.wdiscute.starcatcher_delight;
 
-import com.wdiscute.starcatcher_delight.registry.ModCreativeTab;
-import com.wdiscute.starcatcher_delight.registry.ModItems;
+import com.wdiscute.starcatcher_delight.registry.SDCreativeTab;
+import com.wdiscute.starcatcher_delight.registry.SDItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -23,8 +23,8 @@ public class StarcatcherDelight {
     public StarcatcherDelight(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
-        ModItems.register(modEventBus);
-        ModCreativeTab.register(modEventBus);
+        SDItems.register(modEventBus);
+        SDCreativeTab.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
     }

@@ -7,7 +7,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-public class ModItems {
+public class SDItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
 
 
