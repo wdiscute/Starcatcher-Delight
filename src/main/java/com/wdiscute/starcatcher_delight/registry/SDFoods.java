@@ -15,6 +15,6 @@ public class SDFoods {
             .alwaysEdible()
             .nutrition(4)
             .saturationModifier(0.6F)
-            .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 300, 0), 1F)
+            .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 6000, 0), 1F)
             .build();
 }
