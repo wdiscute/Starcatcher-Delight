@@ -29,8 +29,6 @@ public class StarcatcherDelight {
         NeoForge.EVENT_BUS.register(this);
     }
 
-
-
     private void commonSetup(FMLCommonSetupEvent event) {
     }
 

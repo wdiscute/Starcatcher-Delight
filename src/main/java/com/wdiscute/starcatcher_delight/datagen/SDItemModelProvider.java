@@ -14,5 +14,6 @@ public class SDItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(SDItems.CACTIFISH_STEW.get());
+        basicItem(SDItems.MAGMA_FISH_BALLS.get());
     }
 }

@@ -13,7 +13,7 @@ public class SDTags {
     public static class Items {
         public static final TagKey<Item> FILET_FISHES = createTag("filet_fishes");
         public static final TagKey<Item> POWDER_FISHES = createTag("powder_fishes"); //joke
-
+        public static final TagKey<Item> SPECIAL_FISH_DISHES = createTag("special_fish_dishes");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(Starcatcher.MOD_ID, name));
@@ -22,7 +22,6 @@ public class SDTags {
 
     public static class Blocks {
         public static final TagKey<Block> PLACEABLE_FISH_DISHES = createTag("placeable_fish_dishes");
-
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(Starcatcher.MOD_ID, name));

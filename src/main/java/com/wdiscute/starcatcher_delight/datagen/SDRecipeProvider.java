@@ -1,16 +1,19 @@
 package com.wdiscute.starcatcher_delight.datagen;
 
+import com.wdiscute.starcatcher.ModItems;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import vectorwing.farmersdelight.client.recipebook.CookingPotRecipeBookTab;
 import vectorwing.farmersdelight.common.tag.CommonTags;
 import vectorwing.farmersdelight.data.builder.CookingPotRecipeBuilder;
 
 import java.util.concurrent.CompletableFuture;
+import static vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE;
 
 public class SDRecipeProvider extends RecipeProvider implements IConditionBuilder {
     public SDRecipeProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
@@ -25,7 +28,6 @@ public class SDRecipeProvider extends RecipeProvider implements IConditionBuilde
     public static final float MEDIUM_EXP = 1.0F;
     public static final float LARGE_EXP = 2.0F;
 
-
     @Override
     protected void buildRecipes(RecipeOutput output) {
         cookMeals(output);
@@ -36,17 +38,25 @@ public class SDRecipeProvider extends RecipeProvider implements IConditionBuilde
     private static void cookMeals(RecipeOutput output) {
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.CACTIFISH_STEW.get(), 1, NORMAL_COOKING, MEDIUM_EXP)
-                .addIngredient(com.wdiscute.starcatcher.ModItems.CACTIFISH)
+                .addIngredient(ModItems.CACTIFISH)
                 .addIngredient(CommonTags.CROPS_TOMATO)
                 .addIngredient(CommonTags.CROPS_CABBAGE)
                 .addIngredient(CommonTags.CROPS_ONION)
-                .unlockedByAnyIngredient(com.wdiscute.starcatcher.ModItems.CACTIFISH)
+                .unlockedByAnyIngredient(ModItems.CACTIFISH)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
+
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.MAGMA_FISH_BALLS.get(), 4, FAST_COOKING, SMALL_EXP)
+                .addIngredient(ModItems.MAGMA_FISH)
+                .addIngredient(TOMATO_SAUCE.get())
+                .addIngredient(CommonTags.FOODS_DOUGH)
+                .addIngredient(Items.EGG)
+                .unlockedByAnyIngredient(ModItems.MAGMA_FISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output);
     }
 
     private static void cuttingFishies(RecipeOutput output) {
-
     }
 
     private static void cuttingMisc(RecipeOutput output) {

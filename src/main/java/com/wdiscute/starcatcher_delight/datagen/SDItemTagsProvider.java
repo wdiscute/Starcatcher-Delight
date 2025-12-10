@@ -1,6 +1,7 @@
 package com.wdiscute.starcatcher_delight.datagen;
 
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
+import com.wdiscute.starcatcher_delight.registry.SDItems;
 import com.wdiscute.starcatcher_delight.registry.SDTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -20,6 +21,10 @@ public class SDItemTagsProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        tag(SDTags.Items.SPECIAL_FISH_DISHES)
+                .add(SDItems.MAGMA_FISH_BALLS.get())
+                .add(SDItems.CACTIFISH_STEW.get());
+
         tag(SDTags.Items.FILET_FISHES);
 
         tag(SDTags.Items.POWDER_FISHES);
