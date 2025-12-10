@@ -1,9 +1,10 @@
-package com.wdiscute.starcatchers_delight.registry;
+package com.wdiscute.starcatcher_delight.registry;
 
-import com.wdiscute.starcatchers_delight.StarcatcherDelight;
+import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -15,9 +16,10 @@ public class ModCreativeTab {
 
     public static final Supplier<CreativeModeTab> STARCATCHER_DELIGHT_TAB = CREATIVE_MODE_TAB.register("starcatcher_delight_tab",
             () -> CreativeModeTab.builder()
-//                    .icon(() -> new ItemStack(ModItems.SOME_FISH.get()))
-                    .title(Component.translatable("itemGroup.starcatcher_tab"))
+                    .icon(() -> new ItemStack(ModItems.CACTIFISH_STEW.get()))
+                    .title(Component.translatable("itemGroup.starcatcher_delight_tab"))
                     .displayItems((parameters, output) -> {
+                        output.accept(ModItems.CACTIFISH_STEW);
 
 
 

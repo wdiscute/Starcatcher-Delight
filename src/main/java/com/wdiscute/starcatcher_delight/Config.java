@@ -1,4 +1,4 @@
-package com.wdiscute.starcatchers_delight;
+package com.wdiscute.starcatcher_delight;
 
 import net.neoforged.neoforge.common.ModConfigSpec;
 

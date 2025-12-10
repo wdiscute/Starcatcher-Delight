@@ -1,7 +1,7 @@
-package com.wdiscute.starcatchers_delight;
+package com.wdiscute.starcatcher_delight;
 
-import com.wdiscute.starcatchers_delight.registry.ModCreativeTab;
-import com.wdiscute.starcatchers_delight.registry.ModItems;
+import com.wdiscute.starcatcher_delight.registry.ModCreativeTab;
+import com.wdiscute.starcatcher_delight.registry.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
