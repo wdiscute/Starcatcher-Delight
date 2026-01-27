@@ -4,7 +4,13 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 
-public class SDFoods {
+public class ModFoodProperties
+{
+
+    public static final FoodProperties FUTOMAKI = new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.8F)
+            .build();
 
     public static final FoodProperties CACTIFISH_STEW = new FoodProperties.Builder()
             .nutrition(6)

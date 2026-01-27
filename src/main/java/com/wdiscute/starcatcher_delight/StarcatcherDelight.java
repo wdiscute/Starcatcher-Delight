@@ -15,25 +15,17 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 @Mod(StarcatcherDelight.MOD_ID)
-public class StarcatcherDelight {
-
+public class StarcatcherDelight
+{
     public static final String MOD_ID = "starcatcher_delight";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public StarcatcherDelight(IEventBus modEventBus, ModContainer modContainer) {
-        modEventBus.addListener(this::commonSetup);
-
-        SDItems.register(modEventBus);
+    public StarcatcherDelight(IEventBus modEventBus, ModContainer modContainer)
+    {
+        SDItems.FOODS.register(modEventBus);
         SDCreativeTab.register(modEventBus);
 
-        NeoForge.EVENT_BUS.register(this);
+        //NeoForge.EVENT_BUS.register(this);
     }
 
-    private void commonSetup(FMLCommonSetupEvent event) {
-    }
-
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-
-    }
 }

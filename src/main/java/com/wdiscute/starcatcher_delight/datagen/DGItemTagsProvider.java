@@ -13,9 +13,9 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-public class SDItemTagsProvider extends ItemTagsProvider {
-    public SDItemTagsProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,
-                      CompletableFuture<TagsProvider.TagLookup<Block>> blockTags, @Nullable ExistingFileHelper existingFileHelper) {
+public class DGItemTagsProvider extends ItemTagsProvider {
+    public DGItemTagsProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,
+                              CompletableFuture<TagsProvider.TagLookup<Block>> blockTags, @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, blockTags, StarcatcherDelight.MOD_ID, existingFileHelper);
     }
 

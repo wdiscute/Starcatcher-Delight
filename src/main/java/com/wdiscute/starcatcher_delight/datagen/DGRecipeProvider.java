@@ -1,7 +1,9 @@
 package com.wdiscute.starcatcher_delight.datagen;
 
+import com.wdiscute.starcatcher.StarcatcherTags;
 import com.wdiscute.starcatcher.registry.ModItems;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.RecipeOutput;
@@ -11,12 +13,17 @@ import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import vectorwing.farmersdelight.client.recipebook.CookingPotRecipeBookTab;
 import vectorwing.farmersdelight.common.tag.CommonTags;
 import vectorwing.farmersdelight.data.builder.CookingPotRecipeBuilder;
+import vectorwing.farmersdelight.data.builder.CuttingBoardRecipeBuilder;
 
 import java.util.concurrent.CompletableFuture;
+
+import static vectorwing.farmersdelight.common.registry.ModItems.RICE;
 import static vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE;
 
-public class SDRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    public SDRecipeProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
+public class DGRecipeProvider extends RecipeProvider implements IConditionBuilder
+{
+    public DGRecipeProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries)
+    {
         super(output, registries);
     }
 
@@ -29,14 +36,17 @@ public class SDRecipeProvider extends RecipeProvider implements IConditionBuilde
     public static final float LARGE_EXP = 2.0F;
 
     @Override
-    protected void buildRecipes(RecipeOutput output) {
+    protected void buildRecipes(RecipeOutput output)
+    {
         cookMeals(output);
         cuttingFishies(output);
         cuttingMisc(output);
     }
 
-    private static void cookMeals(RecipeOutput output) {
+    private static void cookMeals(RecipeOutput output)
+    {
 
+        //special
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.CACTIFISH_STEW.get(), 1, NORMAL_COOKING, MEDIUM_EXP)
                 .addIngredient(ModItems.CACTIFISH)
                 .addIngredient(CommonTags.CROPS_TOMATO)
@@ -47,19 +57,47 @@ public class SDRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .build(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.MAGMA_FISH_BALLS.get(), 4, SLOW_COOKING, MEDIUM_EXP)
-                .addIngredient(ModItems.MAGMA_FISH)
+                .addIngredient(StarcatcherTags.BAITS)
                 .addIngredient(TOMATO_SAUCE.get())
                 .addIngredient(CommonTags.FOODS_DOUGH)
                 .addIngredient(Items.EGG)
                 .unlockedByAnyIngredient(ModItems.MAGMA_FISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output);
+
+
+
+
+
+        //futomaki
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.FUTOMAKI.get(), 4, SLOW_COOKING, MEDIUM_EXP)
+                .addIngredient(Items.KELP)
+                .addIngredient(RICE.get())
+                .addIngredient(RICE.get())
+                .addIngredient(SDItems.STARCAUGHT_FILLET)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
+
+
+
+
+        //nigiri
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.NIGIRI.get(), 4, SLOW_COOKING, MEDIUM_EXP)
+                .addIngredient(RICE.get())
+                .addIngredient(RICE.get())
+                .addIngredient(SDItems.STARCAUGHT_FILLET)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
     }
 
-    private static void cuttingFishies(RecipeOutput output) {
+    private static void cuttingFishies(RecipeOutput output)
+    {
+        CuttingBoardRecipeBuilder.cuttingRecipe()
     }
 
-    private static void cuttingMisc(RecipeOutput output) {
+
+    private static void cuttingMisc(RecipeOutput output)
+    {
 //        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(ModItems.SOME_ITEM.get()),
 //                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.SOME_ITEMS_FROM_SOME_ITEM.get(), 67)
 //                .build(output);

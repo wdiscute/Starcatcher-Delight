@@ -10,8 +10,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-public class SDBlockTagsProvider extends BlockTagsProvider {
-    public SDBlockTagsProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
+public class DGBlockTagsProvider extends BlockTagsProvider {
+    public DGBlockTagsProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, StarcatcherDelight.MOD_ID, existingFileHelper);
     }
 

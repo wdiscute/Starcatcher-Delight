@@ -6,8 +6,8 @@ import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
-public class SDItemModelProvider extends ItemModelProvider {
-    public SDItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+public class DGItemModelProvider extends ItemModelProvider {
+    public DGItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, StarcatcherDelight.MOD_ID, existingFileHelper);
     }
 

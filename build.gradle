@@ -34,7 +34,9 @@ repositories {
 
 dependencies {
     implementation("maven.modrinth:farmers-delight:${farmersdelight_version}")
-    implementation("maven.modrinth:starcatcher:${starcatcher_version}")
+    //implementation("maven.modrinth:starcatcher:${starcatcher_version}")
+
+    implementation files(".compatmods/starcatcher-2.2-PREVIEW-NEOFORGE-1.21.1.jar")
 
     compileOnly("dev.emi:emi-neoforge:${emi_version}:api")
     runtimeOnly("dev.emi:emi-neoforge:${emi_version}")
