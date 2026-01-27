@@ -1,6 +1,6 @@
 package com.wdiscute.starcatcher_delight.datagen;
 
-import com.wdiscute.starcatcher.ModItems;
+import com.wdiscute.starcatcher.registry.ModItems;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
