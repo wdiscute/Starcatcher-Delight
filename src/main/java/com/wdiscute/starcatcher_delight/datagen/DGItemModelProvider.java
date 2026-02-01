@@ -15,5 +15,13 @@ public class DGItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(SDItems.CACTIFISH_STEW.get());
         basicItem(SDItems.MAGMA_FISH_BALLS.get());
+
+        SDItems.COMMON_FOODS.getEntries().forEach(o -> basicItem(o.get()));
+        SDItems.UNCOMMON_FOODS.getEntries().forEach(o -> basicItem(o.get()));
+        SDItems.RARE_FOODS.getEntries().forEach(o -> basicItem(o.get()));
+        SDItems.EPIC_FOODS.getEntries().forEach(o -> basicItem(o.get()));
+        SDItems.LEGENDARY_FOODS.getEntries().forEach(o -> basicItem(o.get()));
+
+
     }
 }

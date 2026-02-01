@@ -2,48 +2,44 @@ package com.wdiscute.starcatcher_delight.registry;
 
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import com.wdiscute.starcatcher_delight.items.CactiFishStewItem;
+import com.wdiscute.starcatcher_delight.items.GenericFoodItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import org.jetbrains.annotations.NotNull;
 
-import java.util.function.Supplier;
+import java.util.ArrayList;
+import java.util.List;
 
-public class SDItems {
-    public static final DeferredRegister.Items FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
-    public static final DeferredRegister.Items FOODS_REPEATS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
+public interface SDItems {
+    DeferredRegister.Items SPECIAL_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegister.Items COMMON_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegister.Items UNCOMMON_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegister.Items RARE_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegister.Items EPIC_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegister.Items LEGENDARY_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
 
     //Specials
-    public static final DeferredItem<Item> CACTIFISH_STEW = FOODS.register("cactifish_stew", CactiFishStewItem::new);
-    public static final DeferredItem<Item> MAGMA_FISH_BALLS = FOODS.register("magma_fish_balls", food(ModFoodProperties.MAGMA_FISH_BALLS));
+    DeferredItem<Item> CACTIFISH_STEW = SPECIAL_FOODS.register("cactifish_stew", CactiFishStewItem::new);
+    DeferredItem<Item> MAGMA_FISH_BALLS = SPECIAL_FOODS.register("magma_fish_balls", () -> new Item(new Item.Properties().food(Nutrition.MAGMA_FISH_BALLS)));
 
 
 
     //Generic
-    public static final DeferredItem<Item> STARCAUGHT_FILLET_COMMON = FOODS.register("starcaught_fillet", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> STARCAUGHT_FILLET_UNCOMMON = FOODS.register("starcaught_fillet", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> STARCAUGHT_FILLET_RARE = FOODS.register("starcaught_fillet", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> STARCAUGHT_FILLET_EPIC = FOODS.register("starcaught_fillet", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> STARCAUGHT_FILLET_LEGENDARY = FOODS.register("starcaught_fillet", food(ModFoodProperties.FUTOMAKI));
-
-    public static final DeferredItem<Item> FUTOMAKI_COMMON = FOODS.register("futomaki", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> FUTOMAKI_UNCOMMON = FOODS_REPEATS.register("futomaki", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> FUTOMAKI_RARE = FOODS_REPEATS.register("futomaki", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> FUTOMAKI_EPIC = FOODS_REPEATS.register("futomaki", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> FUTOMAKI_LEGENDARY = FOODS_REPEATS.register("futomaki", food(ModFoodProperties.FUTOMAKI));
-
-    public static final DeferredItem<Item> NIGIRI_COMMON = FOODS.register("nigiri", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> NIGIRI_UNCOMMON = FOODS.register("nigiri", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> NIGIRI_RARE = FOODS.register("nigiri", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> NIGIRI_EPIC = FOODS.register("nigiri", food(ModFoodProperties.FUTOMAKI));
-    public static final DeferredItem<Item> NIGIRI_LEGENDARY = FOODS.register("nigiri", food(ModFoodProperties.FUTOMAKI));
-
-    //Common
+    StarcatcherFood STARCAUGHT_FILLET = genericFood("starcaught_fillet", Nutrition.STARCAUGHT_FILLET);
+    StarcatcherFood FUTOMAKI = genericFood("futomaki", Nutrition.FUTOMAKI);
+    StarcatcherFood NIGIRI = genericFood("nigiri", Nutrition.NIGIRI);
 
 
-    private static @NotNull Supplier<Item> food(FoodProperties fp)
+    private static StarcatcherFood genericFood(String name, int baseNutrition)
     {
-        return () -> new Item(new Item.Properties().food(fp));
+        List<DeferredItem<Item>> list = new ArrayList<>();
+
+        list.add(COMMON_FOODS.register(name + "_common", () -> new GenericFoodItem(baseNutrition, 0)));
+        list.add(UNCOMMON_FOODS.register(name + "_uncommon", () -> new GenericFoodItem(baseNutrition, 1)));
+        list.add(RARE_FOODS.register(name + "_rare", () -> new GenericFoodItem(baseNutrition, 2)));
+        list.add(EPIC_FOODS.register(name + "_epic", () -> new GenericFoodItem(baseNutrition, 3)));
+        list.add(LEGENDARY_FOODS.register(name + "_legendary", () -> new GenericFoodItem(baseNutrition, 4, 2)));
+        return new StarcatcherFood(list);
     }
 }

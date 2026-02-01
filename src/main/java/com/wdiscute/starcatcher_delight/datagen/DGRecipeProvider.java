@@ -1,14 +1,22 @@
 package com.wdiscute.starcatcher_delight.datagen;
 
+import com.wdiscute.starcatcher.Starcatcher;
 import com.wdiscute.starcatcher.StarcatcherTags;
+import com.wdiscute.starcatcher.U;
 import com.wdiscute.starcatcher.registry.ModItems;
+import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 import vectorwing.farmersdelight.client.recipebook.CookingPotRecipeBookTab;
 import vectorwing.farmersdelight.common.tag.CommonTags;
@@ -36,12 +44,35 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
     public static final float LARGE_EXP = 2.0F;
 
     @Override
-    protected void buildRecipes(RecipeOutput output)
+    protected void buildRecipes(RecipeOutput o)
     {
-        cookMeals(output);
-        cuttingFishies(output);
-        cuttingMisc(output);
+        cookMeals(o);
+
+
+        cutRecipe(StarcatcherTags.COMMON_FISHES, SDItems.STARCAUGHT_FILLET.getCommon(), o);
+        cutRecipe(StarcatcherTags.UNCOMMON_FISHES, SDItems.STARCAUGHT_FILLET.getUncommon(), o);
+        cutRecipe(StarcatcherTags.RARE_FISHES, SDItems.STARCAUGHT_FILLET.getRare(), o);
+        cutRecipe(StarcatcherTags.EPIC_FISHES, SDItems.STARCAUGHT_FILLET.getEpic(), o);
+        cutRecipe(StarcatcherTags.LEGENDARY_FISHES, SDItems.STARCAUGHT_FILLET.getLegendary(), o);
     }
+
+
+    private static void cutRecipe(TagKey<Item> input, ItemLike output, RecipeOutput o)
+    {
+        cutRecipe(Ingredient.of(input), output, o);
+    }
+
+    private static void cutRecipe(ItemLike input, ItemLike output, RecipeOutput o)
+    {
+        cutRecipe(Ingredient.of(input), output, o);
+    }
+
+    private static void cutRecipe(Ingredient input, ItemLike output, RecipeOutput o)
+    {
+        CuttingBoardRecipeBuilder.cuttingRecipe(input, Ingredient.of(CommonTags.TOOLS_KNIFE), output, 1)
+                .build(o, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(output.asItem()).getPath()));
+    }
+
 
     private static void cookMeals(RecipeOutput output)
     {
@@ -66,40 +97,32 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .build(output);
 
 
+        //generic quality foods
+        for (int i = 0; i < 5; i++)
+        {
+            //futomaki
+            CookingPotRecipeBuilder.cookingPotRecipe(SDItems.FUTOMAKI.get(i), 4, SLOW_COOKING, MEDIUM_EXP)
+                    .addIngredient(Items.KELP)
+                    .addIngredient(RICE.get())
+                    .addIngredient(RICE.get())
+                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
+                    .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                    .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.FUTOMAKI.get(i).get()).getPath()));
+
+
+            //nigiri
+            CookingPotRecipeBuilder.cookingPotRecipe(SDItems.NIGIRI.get(i), 4, SLOW_COOKING, MEDIUM_EXP)
+                    .addIngredient(RICE.get())
+                    .addIngredient(RICE.get())
+                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
+                    .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                    .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.NIGIRI.get(i).get()).getPath()));
+
+        }
 
 
 
-        //futomaki
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.FUTOMAKI.get(), 4, SLOW_COOKING, MEDIUM_EXP)
-                .addIngredient(Items.KELP)
-                .addIngredient(RICE.get())
-                .addIngredient(RICE.get())
-                .addIngredient(SDItems.STARCAUGHT_FILLET)
-                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
 
 
-
-
-        //nigiri
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.NIGIRI.get(), 4, SLOW_COOKING, MEDIUM_EXP)
-                .addIngredient(RICE.get())
-                .addIngredient(RICE.get())
-                .addIngredient(SDItems.STARCAUGHT_FILLET)
-                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
-    }
-
-    private static void cuttingFishies(RecipeOutput output)
-    {
-        CuttingBoardRecipeBuilder.cuttingRecipe()
-    }
-
-
-    private static void cuttingMisc(RecipeOutput output)
-    {
-//        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(ModItems.SOME_ITEM.get()),
-//                        Ingredient.of(CommonTags.TOOLS_KNIFE), ModItems.SOME_ITEMS_FROM_SOME_ITEM.get(), 67)
-//                .build(output);
     }
 }

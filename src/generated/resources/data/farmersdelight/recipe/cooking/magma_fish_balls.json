@@ -1,10 +1,10 @@
 {
   "type": "farmersdelight:cooking",
-  "cookingtime": 100,
-  "experience": 0.35,
+  "cookingtime": 400,
+  "experience": 1.0,
   "ingredients": [
     {
-      "item": "starcatcher:magma_fish"
+      "tag": "starcatcher:baits"
     },
     {
       "item": "farmersdelight:tomato_sauce"

@@ -23,10 +23,18 @@ public class DGItemTagsProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(SDTags.Items.SPECIAL_FISH_DISHES)
                 .add(SDItems.MAGMA_FISH_BALLS.get())
-                .add(SDItems.CACTIFISH_STEW.get());
+                .add(SDItems.CACTIFISH_STEW.get())
+        ;
 
-        tag(SDTags.Items.FILET_FISHES);
+        //fillets
+        SDItems.STARCAUGHT_FILLET.stream().forEach(o -> tag(SDTags.Items.FILET_FISHES).add(o.value()));
 
-        tag(SDTags.Items.POWDER_FISHES);
+        //food rarity tags
+        SDItems.COMMON_FOODS.getEntries().forEach(o -> tag(SDTags.Items.COMMON_DISHES).add(o.value()));
+        SDItems.UNCOMMON_FOODS.getEntries().forEach(o -> tag(SDTags.Items.UNCOMMON_DISHES).add(o.value()));
+        SDItems.RARE_FOODS.getEntries().forEach(o -> tag(SDTags.Items.RARE_DISHES).add(o.value()));
+        SDItems.EPIC_FOODS.getEntries().forEach(o -> tag(SDTags.Items.EPIC_DISHES).add(o.value()));
+        SDItems.LEGENDARY_FOODS.getEntries().forEach(o -> tag(SDTags.Items.LEGENDARY_DISHES).add(o.value()));
+
     }
 }

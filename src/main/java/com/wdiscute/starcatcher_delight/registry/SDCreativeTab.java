@@ -4,13 +4,16 @@ import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-public class SDCreativeTab {
+public class SDCreativeTab
+{
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, StarcatcherDelight.MOD_ID);
 
@@ -18,17 +21,20 @@ public class SDCreativeTab {
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(SDItems.CACTIFISH_STEW.get()))
                     .title(Component.translatable("itemGroup.starcatcher_delight_tab"))
-                    .displayItems((parameters, output) -> {
-                        output.accept(SDItems.CACTIFISH_STEW);
+                    .displayItems((parameters, output) ->
+                    {
 
+                        for (DeferredHolder<Item, ? extends Item> entry : SDItems.SPECIAL_FOODS.getEntries())
+                            output.accept(entry.get());
 
-
-
+                        for (DeferredHolder<Item, ? extends Item> entry : SDItems.COMMON_FOODS.getEntries())
+                            output.accept(entry.get());
 
 
                     }).build());
 
-    public static void register(IEventBus eventBus) {
+    public static void register(IEventBus eventBus)
+    {
         CREATIVE_MODE_TAB.register(eventBus);
     }
 }

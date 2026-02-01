@@ -1,5 +1,24 @@
 {
   "itemGroup.starcatcher_delight_tab": "Starcatcher's Delight",
   "item.starcatcher_delight.cactifish_stew": "Cactifish Stew",
-  "item.starcatcher_delight.magma_fish_balls": "Magma Fish Balls"
+  "item.starcatcher_delight.magma_fish_balls": "Magma Fish Balls",
+
+
+  "item.starcatcher_delight.starcaught_fillet_common": "Starcaught Fillet",
+  "item.starcatcher_delight.starcaught_fillet_uncommon": "Starcaught Fillet",
+  "item.starcatcher_delight.starcaught_fillet_rare": "Starcaught Fillet",
+  "item.starcatcher_delight.starcaught_fillet_epic": "Starcaught Fillet",
+  "item.starcatcher_delight.starcaught_fillet_legendary": "Starcaught Fillet",
+
+  "item.starcatcher_delight.futomaki_common": "Futomaki",
+  "item.starcatcher_delight.futomaki_uncommon": "Futomaki",
+  "item.starcatcher_delight.futomaki_rare": "Futomaki",
+  "item.starcatcher_delight.futomaki_epic": "Futomaki",
+  "item.starcatcher_delight.futomaki_legendary": "Futomaki",
+
+  "item.starcatcher_delight.nigiri_common": "Nigiri",
+  "item.starcatcher_delight.nigiri_uncommon": "Nigiri",
+  "item.starcatcher_delight.nigiri_rare": "Nigiri",
+  "item.starcatcher_delight.nigiri_epic": "Nigiri",
+  "item.starcatcher_delight.nigiri_legendary": "Nigiri"
 }
