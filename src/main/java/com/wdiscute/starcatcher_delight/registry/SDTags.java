@@ -14,13 +14,15 @@ public class SDTags {
     public static class Items {
         public static final TagKey<Item> FILET_FISHES = createTag("filet_fishes");
         public static final TagKey<Item> SPECIAL_FISH_DISHES = createTag("special_fish_dishes");
-        public static final TagKey<Item> GENERIC_DISH = createTag("special_fish_dishes");
+        public static final TagKey<Item> GENERIC_DISH = createTag("generic_dishes");
 
         public static final TagKey<Item> COMMON_DISHES = createTag("common_dishes");
         public static final TagKey<Item> UNCOMMON_DISHES = createTag("uncommon_dishes");
         public static final TagKey<Item> RARE_DISHES = createTag("rare_dishes");
         public static final TagKey<Item> EPIC_DISHES = createTag("epic_dishes");
         public static final TagKey<Item> LEGENDARY_DISHES = createTag("legendary_dishes");
+
+        public static final TagKey<Item> WORMS = createTag("worms");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(StarcatcherDelight.MOD_ID, name));

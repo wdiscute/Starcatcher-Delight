@@ -22,6 +22,7 @@ public class StarcatcherDelight
     {
         //items
         SDItems.SPECIAL_FOODS.register(modEventBus);
+        SDItems.GENERIC_FOODS.register(modEventBus);
 
         SDItems.COMMON_FOODS.register(modEventBus);
         SDItems.UNCOMMON_FOODS.register(modEventBus);

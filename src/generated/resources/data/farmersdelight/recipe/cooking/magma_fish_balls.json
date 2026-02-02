@@ -4,10 +4,13 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "tag": "starcatcher:baits"
+      "tag": "starcatcher_delight:worms"
     },
     {
-      "item": "farmersdelight:tomato_sauce"
+      "item": "starcatcher:magma_fish"
+    },
+    {
+      "tag": "c:foods/tomato"
     },
     {
       "tag": "c:foods/dough"

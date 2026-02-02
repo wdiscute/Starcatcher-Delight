@@ -4,13 +4,13 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "farmersdelight:rice"
-    },
-    {
-      "item": "farmersdelight:rice"
-    },
-    {
       "item": "starcatcher_delight:starcaught_fillet_uncommon"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "farmersdelight:rice"
     }
   ],
   "recipe_book_tab": "meals",

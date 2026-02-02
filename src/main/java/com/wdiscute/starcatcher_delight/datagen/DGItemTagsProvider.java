@@ -1,5 +1,6 @@
 package com.wdiscute.starcatcher_delight.datagen;
 
+import com.wdiscute.starcatcher.registry.ModItems;
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
 import com.wdiscute.starcatcher_delight.registry.SDTags;
@@ -35,6 +36,13 @@ public class DGItemTagsProvider extends ItemTagsProvider {
         SDItems.RARE_FOODS.getEntries().forEach(o -> tag(SDTags.Items.RARE_DISHES).add(o.value()));
         SDItems.EPIC_FOODS.getEntries().forEach(o -> tag(SDTags.Items.EPIC_DISHES).add(o.value()));
         SDItems.LEGENDARY_FOODS.getEntries().forEach(o -> tag(SDTags.Items.LEGENDARY_DISHES).add(o.value()));
+
+        tag(SDTags.Items.WORMS)
+                .add(ModItems.WORM.get())
+                .add(ModItems.ALMIGHTY_WORM.get())
+                .add(ModItems.SEEKING_WORM.get())
+                .add(ModItems.DEV_WORM.get());
+
 
     }
 }

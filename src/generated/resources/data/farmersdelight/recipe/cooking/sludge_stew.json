@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "starcatcher:sludge_catfish"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "starcatcher_delight:sludge_stew"
+  }
+}

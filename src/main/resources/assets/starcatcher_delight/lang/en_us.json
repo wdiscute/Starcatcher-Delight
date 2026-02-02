@@ -1,24 +1,210 @@
 {
-  "itemGroup.starcatcher_delight_tab": "Starcatcher's Delight",
-  "item.starcatcher_delight.cactifish_stew": "Cactifish Stew",
-  "item.starcatcher_delight.magma_fish_balls": "Magma Fish Balls",
+  "creativetab.starcatcher_delight.starcatcher_delight": "Starcatcher's Delight",
 
+
+  "item.starcatcher_delight.cactifish_stew": "Cactifish Stew",
+  "tooltip.starcatcher_delight.cactifish_stew.0": "A prickly Stew made from a cactifish.",
+  "tooltip.starcatcher_delight.cactifish_stew.1": "Cactifish are not prickly, yet people expect a stew made from them to be,",
+  "tooltip.starcatcher_delight.cactifish_stew.2": "so a cactus is usually added for the prickliness.",
+
+  "item.starcatcher_delight.magma_fish_balls": "Magma Fish Balls",
+  "tooltip.starcatcher_delight.magma_fish_balls.0": "A snack often prepared by adventurers ready to explore the nether.",
+  "tooltip.starcatcher_delight.magma_fish_balls.1": "Although an annoyance to prepare, the fact that they are so delicious makes it all worth it!",
+
+  "item.starcatcher_delight.sludge_stew": "Sludge Stew",
+  "tooltip.starcatcher_delight.sludge_stew.0": "A gross-looking yet somehow tasty Stew made a sludge catfish.",
+  "tooltip.starcatcher_delight.sludge_stew.1": "A dish originating from the swamp villages cuisine,",
+  "tooltip.starcatcher_delight.sludge_stew.2": "often prepared with whatever there was available.",
+  "tooltip.starcatcher_delight.sludge_stew.3": "Best eaten using a bone-spoon.",
+
+  "item.starcatcher_delight.blossom_toast": "Blossom Toast",
+  "tooltip.starcatcher_delight.blossom_toast.0": "A tasty fish flavoured toast usually made with blossomfish.",
+  "tooltip.starcatcher_delight.blossom_toast.1": "A single bite of this toast is sure to lift your mood,",
+  "tooltip.starcatcher_delight.blossom_toast.2": "sharing a bit of cherry whim with everyone around you.",
+
+  "item.starcatcher_delight.steamed_redscaled_tuna": "Steamed Redscaled Tuna",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.0": "A steamed redscaled tuna that is sure to leave you craving for more.",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.1": "The side of greens matches the flavour of the tuna perfectly,",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.2": "making for a surprisingly flavourful dish.",
+
+  "item.starcatcher_delight.grilled_shroomfish": "Grilled Shroomfish",
+  "tooltip.starcatcher_delight.grilled_shroomfish.0": "A shroomfish grilled served with a side of greens and mashed potatoes.",
+  "tooltip.starcatcher_delight.grilled_shroomfish.1": "It's said the recipe came from sailors stranded in a mushroom island,",
+  "tooltip.starcatcher_delight.grilled_shroomfish.2": "with nothing but potatoes and lettuce to eat for months.",
+
+
+
+
+
+
+
+
+  "item.starcatcher_delight.starcaught_fillet": "Starcaught Fillet",
+  "tooltip.starcatcher_delight.starcaught_fillet.0": "§7A fish fillet of <Unknown Quality>",
 
   "item.starcatcher_delight.starcaught_fillet_common": "Starcaught Fillet",
+  "tooltip.starcatcher_delight.starcaught_fillet_common.0": "A raw fish fillet smelling as if it will go bad within the next 3 hours.",
+
   "item.starcatcher_delight.starcaught_fillet_uncommon": "Starcaught Fillet",
+  "tooltip.starcatcher_delight.starcaught_fillet_uncommon.0": "The main ingredient of fish cuisine.",
+
   "item.starcatcher_delight.starcaught_fillet_rare": "Starcaught Fillet",
+  "tooltip.starcatcher_delight.starcaught_fillet_rare.0": "A nice looking fish fillet.",
+  "tooltip.starcatcher_delight.starcaught_fillet_rare.1": "Whatever dish it will eventually belong to, is sure to be of great quality.",
+
   "item.starcatcher_delight.starcaught_fillet_epic": "Starcaught Fillet",
+  "tooltip.starcatcher_delight.starcaught_fillet_epic.0": "A fish fillet of remarkable quality.",
+  "tooltip.starcatcher_delight.starcaught_fillet_epic.1": "One can only hope to taste whatever incredible creation it's used on.",
+
   "item.starcatcher_delight.starcaught_fillet_legendary": "Starcaught Fillet",
+  "tooltip.starcatcher_delight.starcaught_fillet_legendary.0": "An incredibly precious fish fillet, obtained from a <rgb>legendary</rgb> fish.",
+  "tooltip.starcatcher_delight.starcaught_fillet_legendary.1": "A shame it had to end this way, but you can't help but wonder what delicious dish to prepare with it.",
+
+
+
+
+
+  "item.starcatcher_delight.futomaki": "Futomaki",
+  "tooltip.starcatcher_delight.futomaki.0": "§7A piece of futomaki of <Unknown Quality>",
 
   "item.starcatcher_delight.futomaki_common": "Futomaki",
+  "tooltip.starcatcher_delight.futomaki_common.0": "An attempt at a piece of futomaki. The rice is spilling everywhere",
+  "tooltip.starcatcher_delight.futomaki_common.1": "and the fish smells like it's gone bad. Yuck.",
+
   "item.starcatcher_delight.futomaki_uncommon": "Futomaki",
+  "tooltip.starcatcher_delight.futomaki_uncommon.0": "A piece of futomaki, sliced from a roll.",
+  "tooltip.starcatcher_delight.futomaki_uncommon.1": "You can only hope this piece got the worse part of",
+  "tooltip.starcatcher_delight.futomaki_uncommon.2": "the fish and that's why the taste is so bland.",
+
   "item.starcatcher_delight.futomaki_rare": "Futomaki",
+  "tooltip.starcatcher_delight.futomaki_rare.0": "A tasty piece of futomaki, made from fresh fish.",
+  "tooltip.starcatcher_delight.futomaki_rare.1": "Sushi of this quality is often regarded as a slightly luxurious treat.",
+
   "item.starcatcher_delight.futomaki_epic": "Futomaki",
+  "tooltip.starcatcher_delight.futomaki_epic.0": "A perfect example on how to prepare quality sushi.",
+  "tooltip.starcatcher_delight.futomaki_epic.1": "A single bite is sure to send you into a world of pleasure,",
+  "tooltip.starcatcher_delight.futomaki_epic.2": "craving for more and more until the entire roll is gone.",
+
   "item.starcatcher_delight.futomaki_legendary": "Futomaki",
+  "tooltip.starcatcher_delight.futomaki_legendary.0": "An breathtaking example of fish cuisine other dishes can only dream of becoming.",
+  "tooltip.starcatcher_delight.futomaki_legendary.1": "This piece of Sushi is sure to make even the pickiest of eaters want more.",
+  "tooltip.starcatcher_delight.futomaki_legendary.2": "Unfortunately for them, there will be none left after you get a taste yourself.",
+
+
+
+
+
+  "item.starcatcher_delight.nigiri": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri.0": "§7A Nigiri of <Unknown Quality>",
 
   "item.starcatcher_delight.nigiri_common": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_common.0": "A gross piece of nigiri. It barely holds together.",
+  "tooltip.starcatcher_delight.nigiri_common.1": "The fish color makes the entire thing not appetizing in the slightest.",
+
   "item.starcatcher_delight.nigiri_uncommon": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_uncommon.0": "An apprentice's attempt at nigiri.",
+  "tooltip.starcatcher_delight.nigiri_uncommon.1": "Although the fish doesn't appear to be of the best quality,",
+  "tooltip.starcatcher_delight.nigiri_uncommon.2": "it will serve as a snack when needed.",
+
   "item.starcatcher_delight.nigiri_rare": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_rare.0": "A well prepared bit of nigiri, made from fresh fish topped on soft rice.",
+  "tooltip.starcatcher_delight.nigiri_rare.1": "A real treat for your taste buds.",
+
   "item.starcatcher_delight.nigiri_epic": "Nigiri",
-  "item.starcatcher_delight.nigiri_legendary": "Nigiri"
+  "tooltip.starcatcher_delight.nigiri_epic.0": "An incredibly good looking piece of nigiri.",
+  "tooltip.starcatcher_delight.nigiri_epic.1": "Not only does the rice look extremely appetizing,",
+  "tooltip.starcatcher_delight.nigiri_epic.2": "the attention to presentation is remarkable making is hard to resist a bite.",
+
+  "item.starcatcher_delight.nigiri_legendary": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_legendary.0": "Although the making of this type of sushi is not typically fancy,",
+  "tooltip.starcatcher_delight.nigiri_legendary.1": "this specific piece challenges everything you've known about sushi your entire life.",
+  "tooltip.starcatcher_delight.nigiri_legendary.2": "The delicate fish was carefully placed on top of rice cooked to perfection.",
+  "tooltip.starcatcher_delight.nigiri_legendary.3": "The aroma coming from it leaves your mouth watering begging for you to try it.",
+
+
+
+
+
+
+  "item.starcatcher_delight.fish_salad": "Fish Salad",
+  "tooltip.starcatcher_delight.fish_salad.0": "§7A fish salad of <Unknown Quality>",
+
+  "item.starcatcher_delight.fish_salad_common": "Fish Salad",
+  "tooltip.starcatcher_delight.fish_salad_common.0": "A disappointingly bland fish salad.",
+
+  "item.starcatcher_delight.fish_salad_uncommon": "Fish Salad",
+  "tooltip.starcatcher_delight.fish_salad_uncommon.0": "A rushed fish salad, matching the quality of the fillet used.",
+
+  "item.starcatcher_delight.fish_salad_rare": "Fish Salad",
+  "tooltip.starcatcher_delight.fish_salad_rare.0": "A nicely prepared fish salad. Satisfying both the eyes and the stomach.",
+
+  "item.starcatcher_delight.fish_salad_epic": "Fish Salad",
+  "tooltip.starcatcher_delight.fish_salad_epic.0": "A incredibly well dressed salad. One must wonder where it got the clothes from.",
+  "tooltip.starcatcher_delight.fish_salad_epic.1": "Regardless, it's sure to keep you full for a while.",
+
+  "item.starcatcher_delight.fish_salad_legendary": "Fish Salad",
+  "tooltip.starcatcher_delight.fish_salad_legendary.0": "The most appetizing fish salad you have ever had the pleasure lay your eyes upon.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.1": "Everything about it is perfect, from the portion size, to the presentation.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.2": "Looking at it you can't help but let your mouth water from wanting just a bite.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.3": "Best to hurry before it's all gone!",
+
+
+
+
+
+
+
+
+  "item.starcatcher_delight.healthy_fish_omelette": "Healthy Fish Omelette",
+  "tooltip.starcatcher_delight.healthy_fish_omelette.0": "§7A healthy fish omelette of <Unknown Quality>",
+
+
+  "item.starcatcher_delight.healthy_fish_omelette_common": "Healthy Fish Omelette",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_common.0": "Raw egg, undercooked fish, and vegetables that taste of paper.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_common.1": "There are no words to describe how hard it is so swallow this attempt at food.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_uncommon": "Healthy Fish Omelette",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_uncommon.0": "Calling this healthy might be pushing it a bit,",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_uncommon.1": "but it serves as a decently sized meal to keep you full for a bit.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_rare": "Healthy Fish Omelette",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_rare.0": "A tasty omelette prepared with bits of fish.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_rare.1": "A unique combination but everything goes together surprisingly well.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_epic": "Healthy Fish Omelette",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_epic.0": "A dish truly deserving of being called healthy, made from fresh fish and vegetables,",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_epic.1": "with eggs cooked to perfection before being served with a side of greens and tomato.",
+
+
+  "item.starcatcher_delight.healthy_fish_omelette_legendary": "Healthy Fish Omelette",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.0": "Evenly beaten egg fluids fried into half-doneness leave you wanting more before you even try some.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.1": "You can tell the fish used was of high quality as it perfectly matches your expectations.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.2": "The greens and tomato go perfectly with the omelette, making for a not only healthy, but also incredibly tasty dish.",
+
+
+
+  "item.starcatcher_delight.fish_and_chips": "Fish and Chips",
+  "tooltip.starcatcher_delight.fish_and_chips.0": "§7A serving of fish and chips of <Unknown Quality>",
+
+  "item.starcatcher_delight.fish_and_chips_common": "Fish and Chips",
+  "tooltip.starcatcher_delight.fish_and_chips_common.0": "A grotesque dish made by those who can't appreciate true fish cuisine.",
+  "tooltip.starcatcher_delight.fish_and_chips_common.1": "An insult not only to the fish, but also to whoever will be forced to taste this.",
+
+  "item.starcatcher_delight.fish_and_chips_uncommon": "Fish and Chips",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.0": "A dish typical to the northern islands of the overworld,",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.1": "where fish and potatoes are abundant. This one however, has gone soft.",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.2": "Whoever is unfortunate enough to be forced to eat it should seek something better next time.",
+
+  "item.starcatcher_delight.fish_and_chips_rare": "Fish and Chips",
+  "tooltip.starcatcher_delight.fish_and_chips_rare.0": "A fish fillet served with a side of golden and crispy chips.",
+  "tooltip.starcatcher_delight.fish_and_chips_rare.1": "Just delicious.",
+
+  "item.starcatcher_delight.fish_and_chips_epic": "Fish and Chips",
+  "tooltip.starcatcher_delight.fish_and_chips_epic.0": "A demonstration of what fish cuisine is capable of, even when using the simplest of ingredients.",
+  "tooltip.starcatcher_delight.fish_and_chips_epic.2": "The fish flavour compliments the chips saltiness perfectly for a combination made in heaven.",
+
+  "item.starcatcher_delight.fish_and_chips_legendary": "Fish and Chips",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.0": "Coated fish fillets deep-fried to perfection.",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.1": "Crispy chips are served along with it for a miraculous combination.",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.2": "Will leave you scraping the plate as you eat the last chip."
 }

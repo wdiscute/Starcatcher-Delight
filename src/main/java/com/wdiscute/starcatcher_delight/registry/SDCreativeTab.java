@@ -20,16 +20,23 @@ public class SDCreativeTab
     public static final Supplier<CreativeModeTab> STARCATCHER_DELIGHT_TAB = CREATIVE_MODE_TAB.register("starcatcher_delight_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(SDItems.CACTIFISH_STEW.get()))
-                    .title(Component.translatable("itemGroup.starcatcher_delight_tab"))
+                    .title(Component.translatable("creativetab.starcatcher_delight.starcatcher_delight"))
                     .displayItems((parameters, output) ->
                     {
 
                         for (DeferredHolder<Item, ? extends Item> entry : SDItems.SPECIAL_FOODS.getEntries())
                             output.accept(entry.get());
 
-                        for (DeferredHolder<Item, ? extends Item> entry : SDItems.COMMON_FOODS.getEntries())
-                            output.accept(entry.get());
 
+                        for (int i = 0; i < SDItems.GENERIC_FOODS.getEntries().size(); i++)
+                        {
+                            output.accept(SDItems.GENERIC_FOODS.getEntries().stream().toList().get(i).get());
+//                            output.accept(SDItems.COMMON_FOODS.getEntries().stream().toList().get(i).get());
+//                            output.accept(SDItems.UNCOMMON_FOODS.getEntries().stream().toList().get(i).get());
+//                            output.accept(SDItems.RARE_FOODS.getEntries().stream().toList().get(i).get());
+//                            output.accept(SDItems.EPIC_FOODS.getEntries().stream().toList().get(i).get());
+//                            output.accept(SDItems.LEGENDARY_FOODS.getEntries().stream().toList().get(i).get());
+                        }
 
                     }).build());
 

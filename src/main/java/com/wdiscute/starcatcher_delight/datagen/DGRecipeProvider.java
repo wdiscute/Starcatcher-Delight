@@ -6,6 +6,7 @@ import com.wdiscute.starcatcher.U;
 import com.wdiscute.starcatcher.registry.ModItems;
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
+import com.wdiscute.starcatcher_delight.registry.SDTags;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -25,8 +26,7 @@ import vectorwing.farmersdelight.data.builder.CuttingBoardRecipeBuilder;
 
 import java.util.concurrent.CompletableFuture;
 
-import static vectorwing.farmersdelight.common.registry.ModItems.RICE;
-import static vectorwing.farmersdelight.common.registry.ModItems.TOMATO_SAUCE;
+import static vectorwing.farmersdelight.common.registry.ModItems.*;
 
 public class DGRecipeProvider extends RecipeProvider implements IConditionBuilder
 {
@@ -84,43 +84,102 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .addIngredient(CommonTags.CROPS_CABBAGE)
                 .addIngredient(CommonTags.CROPS_ONION)
                 .unlockedByAnyIngredient(ModItems.CACTIFISH)
+                .unlockedByAnyIngredient(Items.CACTUS)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.MAGMA_FISH_BALLS.get(), 4, SLOW_COOKING, MEDIUM_EXP)
-                .addIngredient(StarcatcherTags.BAITS)
-                .addIngredient(TOMATO_SAUCE.get())
+                .unlockedByAnyIngredient(ModItems.MAGMA_FISH)
+                .addIngredient(SDTags.Items.WORMS)
+                .addIngredient(ModItems.MAGMA_FISH)
+                .addIngredient(CommonTags.FOODS_TOMATO)
                 .addIngredient(CommonTags.FOODS_DOUGH)
                 .addIngredient(Items.EGG)
-                .unlockedByAnyIngredient(ModItems.MAGMA_FISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output);
 
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.SLUDGE_STEW.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+                .addIngredient(ModItems.SLUDGE_CATFISH)
+                .addIngredient(Items.DIRT)
+                .addIngredient(ONION.get())
+                .addIngredient(Items.BONE)
+                .unlockedByAnyIngredient(ModItems.SLUDGE_CATFISH)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
+
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.BLOSSOM_TOAST.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+                .addIngredient(ModItems.BLOSSOMFISH)
+                .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                .addIngredient(Items.BREAD)
+                .addIngredient(Items.PINK_PETALS)
+                .unlockedByAnyIngredient(ModItems.BLOSSOMFISH)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
+
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.STEAMED_REDSCALED_TUNA.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+                .addIngredient(ModItems.REDSCALED_TUNA)
+                .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                .addIngredient(CommonTags.FOODS_ONION)
+                .unlockedByAnyIngredient(ModItems.BLOSSOMFISH)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
+
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.GRILLED_SHROOMFISH.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+                .addIngredient(ModItems.SHROOMFISH)
+                .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                .addIngredient(Items.POTATO)
+                .unlockedByAnyIngredient(ModItems.SHROOMFISH)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
 
         //generic quality foods
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 6; i++)
         {
             //futomaki
             CookingPotRecipeBuilder.cookingPotRecipe(SDItems.FUTOMAKI.get(i), 4, SLOW_COOKING, MEDIUM_EXP)
+                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
                     .addIngredient(Items.KELP)
                     .addIngredient(RICE.get())
                     .addIngredient(RICE.get())
-                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
                     .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                     .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.FUTOMAKI.get(i).get()).getPath()));
 
 
             //nigiri
             CookingPotRecipeBuilder.cookingPotRecipe(SDItems.NIGIRI.get(i), 4, SLOW_COOKING, MEDIUM_EXP)
-                    .addIngredient(RICE.get())
-                    .addIngredient(RICE.get())
                     .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
+                    .addIngredient(RICE.get())
+                    .addIngredient(RICE.get())
                     .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                     .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.NIGIRI.get(i).get()).getPath()));
 
+            //healthy fish omelette
+            CookingPotRecipeBuilder.cookingPotRecipe(SDItems.HEALTHY_FISH_OMELETTE.get(i), 1, SLOW_COOKING, MEDIUM_EXP)
+                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
+                    .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                    .addIngredient(CommonTags.FOODS_TOMATO)
+                    .addIngredient(Items.EGG)
+                    .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                    .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.HEALTHY_FISH_OMELETTE.get(i).get()).getPath()));
+
+            //fish salad
+            CookingPotRecipeBuilder.cookingPotRecipe(SDItems.FISH_SALAD.get(i), 1, SLOW_COOKING, MEDIUM_EXP)
+                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
+                    .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                    .addIngredient(CommonTags.FOODS_TOMATO)
+                    .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                    .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.FISH_SALAD.get(i).get()).getPath()));
+
+            //fish and chips
+            CookingPotRecipeBuilder.cookingPotRecipe(SDItems.FISH_AND_CHIPS.get(i), 1, SLOW_COOKING, MEDIUM_EXP)
+                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
+                    .addIngredient(Items.POTATO)
+                    .addIngredient(Items.POTATO)
+                    .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                    .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.FISH_AND_CHIPS.get(i).get()).getPath()));
+
         }
-
-
 
 
 

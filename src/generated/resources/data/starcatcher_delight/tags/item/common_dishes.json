@@ -2,6 +2,9 @@
   "values": [
     "starcatcher_delight:starcaught_fillet_common",
     "starcatcher_delight:futomaki_common",
-    "starcatcher_delight:nigiri_common"
+    "starcatcher_delight:nigiri_common",
+    "starcatcher_delight:healthy_fish_omelette_common",
+    "starcatcher_delight:fish_salad_common",
+    "starcatcher_delight:fish_and_chips_common"
   ]
 }

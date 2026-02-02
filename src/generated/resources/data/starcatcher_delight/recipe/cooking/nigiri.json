@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "item": "farmersdelight:rice"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 4,
+    "id": "starcatcher_delight:nigiri"
+  }
+}
