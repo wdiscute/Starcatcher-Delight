@@ -1,0 +1,210 @@
+{
+    "creativetab.starcatcher_delight.starcatcher_delight": "스타캐쳐스 딜라이트",
+
+
+    "item.starcatcher_delight.cactifish_stew": "선인장고기 스튜",
+    "tooltip.starcatcher_delight.cactifish_stew.0": "선인장고기로 만든 따끔따끔한 스튜.",
+    "tooltip.starcatcher_delight.cactifish_stew.1": "선인장고기는 가시가 없지만, 사람들은 선인장고기로 만든",
+    "tooltip.starcatcher_delight.cactifish_stew.2": "스튜가 따끔할거라 기대하기에 보통 선인장을 재료로 추가한다.",
+
+    "item.starcatcher_delight.magma_fish_balls": "마그마 물고기 완자",
+    "tooltip.starcatcher_delight.magma_fish_balls.0": "지옥을 탐험하러 나서는 모험가들이 자주 준비하는 간식.",
+    "tooltip.starcatcher_delight.magma_fish_balls.1": "준비하는 과정은 꽤나 번거롭지만, 너무 맛있어 그럴 가치가 있다.",
+
+    "item.starcatcher_delight.sludge_stew": "진흙 스튜",
+    "tooltip.starcatcher_delight.sludge_stew.0": "겉보기엔 역겹지만 어쩐지 맛있는 진흙 메기로 만든 스튜.",
+    "tooltip.starcatcher_delight.sludge_stew.1": "늪 마을의 요리법에서 유래된 음식으로,",
+    "tooltip.starcatcher_delight.sludge_stew.2": "보통 뭐가 됐던 가능한 재료를 넣어 준비했었다.",
+    "tooltip.starcatcher_delight.sludge_stew.3": "뼈 숟가락으로 먹는 게 제일 좋다.",
+
+    "item.starcatcher_delight.blossom_toast": "블로섬 토스트",
+    "tooltip.starcatcher_delight.blossom_toast.0": "블로섬피시로 만든 맛있는 생선 향 토스트.",
+    "tooltip.starcatcher_delight.blossom_toast.1": "이 토스트를 한 입만 먹어도 기분이 좋아질 것이다.",
+    "tooltip.starcatcher_delight.blossom_toast.2": "주변 사람들과 체리의 즐거움을 조금씩 나눠보자.",
+
+    "item.starcatcher_delight.steamed_redscaled_tuna": "붉은비늘참치찜",
+    "tooltip.starcatcher_delight.steamed_redscaled_tuna.0": "한 번 맛보면 자꾸만 생각나는 찐 붉은비늘 참치.",
+    "tooltip.starcatcher_delight.steamed_redscaled_tuna.1": "곁들여 나온 채소가 참치의 맛과 완벽하게 어우러져,",
+    "tooltip.starcatcher_delight.steamed_redscaled_tuna.2": "놀랍도록 풍미 있는 요리가 되었다.",
+
+    "item.starcatcher_delight.grilled_shroomfish": "구운 버섯어",
+    "tooltip.starcatcher_delight.grilled_shroomfish.0": "버섯고기를 구워서 채소와 으깬 감자를 곁들여 제공한다.",
+    "tooltip.starcatcher_delight.grilled_shroomfish.1": "이 레시피는 수개월 동안 감자와 양상추밖에 먹을 것이 없었던,",
+    "tooltip.starcatcher_delight.grilled_shroomfish.2": "버섯섬에 조난당한 선원들에게서 유래했다고 한다.",
+
+
+
+
+
+
+
+
+    "item.starcatcher_delight.starcaught_fillet": "스타캐치 필레",
+    "tooltip.starcatcher_delight.starcaught_fillet.0": "§7A <미확인> 생선 필레",
+
+    "item.starcatcher_delight.starcaught_fillet_common": "스타캐치 필레",
+    "tooltip.starcatcher_delight.starcaught_fillet_common.0": "3시간 안에 상할 것 같은 냄새가 나는 생선 필레.",
+
+    "item.starcatcher_delight.starcaught_fillet_uncommon": "스타캐치 필레",
+    "tooltip.starcatcher_delight.starcaught_fillet_uncommon.0": "생선 요리의 주재료.",
+
+    "item.starcatcher_delight.starcaught_fillet_rare": "스타캐치 필레",
+    "tooltip.starcatcher_delight.starcaught_fillet_rare.0": "보기 좋은 생선 필레.",
+    "tooltip.starcatcher_delight.starcaught_fillet_rare.1": "어떤 요리에 사용하든, 분명 훌륭한 품질을 자랑할 것이다.",
+
+    "item.starcatcher_delight.starcaught_fillet_epic": "스타캐치 필레",
+    "tooltip.starcatcher_delight.starcaught_fillet_epic.0": "뛰어난 품질의 생선 필레.",
+    "tooltip.starcatcher_delight.starcaught_fillet_epic.1": "이 재료를 사용한 놀라운 요리를 맛볼 수 있기를 바랄 뿐이다.",
+
+    "item.starcatcher_delight.starcaught_fillet_legendary": "스타캐치 필레",
+    "tooltip.starcatcher_delight.starcaught_fillet_legendary.0": "</rgb>전설</rgb> 물고기에서 얻은 매우 귀한 생선 필레.",
+    "tooltip.starcatcher_delight.starcaught_fillet_legendary.1": "이렇게 끝나게 되어 아쉽지만, 이걸로 어떤 맛있는 요리를 만들지 궁금해진다.",
+
+
+
+
+
+    "item.starcatcher_delight.futomaki": "후토마키",
+    "tooltip.starcatcher_delight.futomaki.0": "§7A <미확인> 후토마키 한 점",
+
+    "item.starcatcher_delight.futomaki_common": "후토마키",
+    "tooltip.starcatcher_delight.futomaki_common.0": "후토마키를 만들려 시도해봤다. 밥알이 사방에 붙었고",
+    "tooltip.starcatcher_delight.futomaki_common.1": "생선에서 상한 냄새가 난다. 우욱.",
+
+    "item.starcatcher_delight.futomaki_uncommon": "후토마키",
+    "tooltip.starcatcher_delight.futomaki_uncommon.0": "줄에서 잘라낸 후토마키 한 조각.",
+    "tooltip.starcatcher_delight.futomaki_uncommon.1": "이 조각이 생선에서 제일 맛없는 부위라서",
+    "tooltip.starcatcher_delight.futomaki_uncommon.2": "맛이 밍밍한 것이길 바랄 뿐이다.",
+
+    "item.starcatcher_delight.futomaki_rare": "후토마키",
+    "tooltip.starcatcher_delight.futomaki_rare.0": "신선한 생선으로 만든, 맛있는 후토마키 한 조각.",
+    "tooltip.starcatcher_delight.futomaki_rare.1": "이 정도 품질의 초밥은 좀 고급스러운 별미로 여겨진다.",
+
+    "item.starcatcher_delight.futomaki_epic": "후토마키",
+    "tooltip.starcatcher_delight.futomaki_epic.0": "훌륭한 초밥을 만드는 방법을 보여주는 완벽한 예시.",
+    "tooltip.starcatcher_delight.futomaki_epic.1": "한 입 베어무는 순간 황홀함의 세계에 빠져들어,",
+    "tooltip.starcatcher_delight.futomaki_epic.2": "롤 전부를 먹을 때까지 먹고 또 먹게 된다.",
+
+    "item.starcatcher_delight.futomaki_legendary": "후토마키",
+    "tooltip.starcatcher_delight.futomaki_legendary.0": "다른 어떤 요리도 꿈꿀 수 없는, 숨 막히는 생선 요리의 예시.",
+    "tooltip.starcatcher_delight.futomaki_legendary.1": "이 초밥은 가장 편식쟁이인 사람조차 더 먹고 싶게 만든다.",
+    "tooltip.starcatcher_delight.futomaki_legendary.2": "안타깝게도, 당신이 한 입 맛보고 나면 남은 건 하나도 없을 것이다.",
+
+
+
+
+
+    "item.starcatcher_delight.nigiri": "니기리",
+    "tooltip.starcatcher_delight.nigiri.0": "§7A <미확인> 니기리",
+
+    "item.starcatcher_delight.nigiri_common": "니기리",
+    "tooltip.starcatcher_delight.nigiri_common.0": "끔찍한 니기리 한 조각. 간신히 형태를 유지하고 있다.",
+    "tooltip.starcatcher_delight.nigiri_common.1": "생선 색깔 때문에 전혀 식욕이 돋지 않는다.",
+
+    "item.starcatcher_delight.nigiri_uncommon": "니기리",
+    "tooltip.starcatcher_delight.nigiri_uncommon.0": "견습생이 만들어 본 니기리.",
+    "tooltip.starcatcher_delight.nigiri_uncommon.1": "생선 품질이 최상급은 아닌 것 같지만,",
+    "tooltip.starcatcher_delight.nigiri_uncommon.2": "필요할 때 간식으로 먹을 수 있을 것 같다.",
+
+    "item.starcatcher_delight.nigiri_rare": "니기리",
+    "tooltip.starcatcher_delight.nigiri_rare.0": "신선한 생선을 부드러운 밥 위에 얹어 정성껏 만든 니기리.",
+    "tooltip.starcatcher_delight.nigiri_rare.1": "미각을 만족시키는 진정한 즐거움이다.",
+
+    "item.starcatcher_delight.nigiri_epic": "니기리",
+    "tooltip.starcatcher_delight.nigiri_epic.0": "놀랍도록 보기 좋은 니기리 한 점.",
+    "tooltip.starcatcher_delight.nigiri_epic.1": "밥이 보기에도 아주 맛있어 보일 뿐만 아니라,",
+    "tooltip.starcatcher_delight.nigiri_epic.2": "정갈한 플레이팅까지 더해져 한 입 참기가 어렵다.",
+
+    "item.starcatcher_delight.nigiri_legendary": "니기리",
+    "tooltip.starcatcher_delight.nigiri_legendary.0": "이런 초밥을 만드는 과정은 보통 화려하지 않지만,",
+    "tooltip.starcatcher_delight.nigiri_legendary.1": "이 특별한 초밥은 당신이 평생 알아온 초밥에 대한 상식을 뒤흔들어 놓을 것이다.",
+    "tooltip.starcatcher_delight.nigiri_legendary.2": "섬세한 생선살이 완벽한 지어진 밥 위에 섬세하게 올려져 있다.",
+    "tooltip.starcatcher_delight.nigiri_legendary.3": "퍼지는 향은 입안에 침이 고이게 해 당장 먹으라고 비는 듯하다.",
+
+
+
+
+
+
+    "item.starcatcher_delight.fish_salad": "생선 샐러드",
+    "tooltip.starcatcher_delight.fish_salad.0": "§7A <미확인> 생선 샐러드",
+
+    "item.starcatcher_delight.fish_salad_common": "생선 샐러드",
+    "tooltip.starcatcher_delight.fish_salad_common.0": "실망스러울 정도로 특색없는 생선 샐러드",
+
+    "item.starcatcher_delight.fish_salad_uncommon": "생선 샐러드",
+    "tooltip.starcatcher_delight.fish_salad_uncommon.0": "급하게 만든 생선 샐러드, 사용한 생선 필레의 수준과 비슷하다.",
+
+    "item.starcatcher_delight.fish_salad_rare": "생선 샐러드",
+    "tooltip.starcatcher_delight.fish_salad_rare.0": "정갈하게 준비된 생선 샐러드. 눈과 배 모두를 만족시킨다.",
+
+    "item.starcatcher_delight.fish_salad_epic": "생선 샐러드",
+    "tooltip.starcatcher_delight.fish_salad_epic.0": "정말 멋지게 차려입은 샐러드다. 옷은 어디서 구했는지 궁금해질 정도로.",
+    "tooltip.starcatcher_delight.fish_salad_epic.1": "어쨌든, 한동안은 배를 든든하게 해줄 것이다.",
+
+    "item.starcatcher_delight.fish_salad_legendary": "생선 샐러드",
+    "tooltip.starcatcher_delight.fish_salad_legendary.0": "지금껏 본 것 중 가장 먹음직스러운 생선 샐러드.",
+    "tooltip.starcatcher_delight.fish_salad_legendary.1": "양부터 플레이팅까지 모든 것이 완벽하다.",
+    "tooltip.starcatcher_delight.fish_salad_legendary.2": "보고 있으면 한 입 먹고 싶어 절로 침이 고인다.",
+    "tooltip.starcatcher_delight.fish_salad_legendary.3": "다 없어지기 전에 서두르자!",
+
+
+
+
+
+
+
+
+    "item.starcatcher_delight.healthy_fish_omelette": "건강한 생선 오믈렛",
+    "tooltip.starcatcher_delight.healthy_fish_omelette.0": "§7A <미확인> 건강한 생선 오믈렛",
+
+
+    "item.starcatcher_delight.healthy_fish_omelette_common": "건강한 생선 오믈렛",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_common.0": "날달걀, 덜 익은 생선, 그리고 종이 맛이 나는 채소.",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_common.1": "이걸 삼키는 게 얼마나 힘든지 말로 표현할 수가 없다.",
+
+    "item.starcatcher_delight.healthy_fish_omelette_uncommon": "건강한 생선 오믈렛",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_uncommon.0": "이걸 건강하다 부르기에는 좀 어폐가 있긴 하지만,",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_uncommon.1": "양은 꽤 많아서 한동안 포만감을 유지시켜 줄 것이다.",
+
+    "item.starcatcher_delight.healthy_fish_omelette_rare": "건강한 생선 오믈렛",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_rare.0": "생선 조각을 넣어 만든 맛있는 오믈렛.",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_rare.1": "독특한 조합이지만, 모든 요소가 놀라울만치 잘 어우러진다.",
+
+    "item.starcatcher_delight.healthy_fish_omelette_epic": "건강한 생선 오믈렛",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_epic.0": "진정 ‘건강한’ 음식이라 불릴 만한 요리, 신선한 생선과 야채, ",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_epic.1": "완벽하게 조리된 계란으로 만들어진 것에 채소와 토마토를 곁들여냈다.",
+
+
+    "item.starcatcher_delight.healthy_fish_omelette_legendary": "건강한 생선 오믈렛",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.0": "고르게 풀어낸 계란물을 반쯤만 익혀 부쳐내, 먹어보기도 전에 더 먹고 싶게 한다.",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.1": "사용한 생선의 품질이 높다는 게, 기대에 완벽하게 부합하는 맛에서 느껴진다.",
+    "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.2": "채소와 토마토가 오믈렛과 완벽하게 조화를 이루어, 건강한데다 믿을 수 없이 맛있는 요리로 만들어졌다.",
+
+
+
+    "item.starcatcher_delight.fish_and_chips": "피시 앤 칩스",
+    "tooltip.starcatcher_delight.fish_and_chips.0": "§7A <미확인> 피시 앤 칩스",
+
+    "item.starcatcher_delight.fish_and_chips_common": "피시 앤 칩스",
+    "tooltip.starcatcher_delight.fish_and_chips_common.0": "진정한 생선 요리의 맛을 모르는 사람들이 만든 흉측한 음식.",
+    "tooltip.starcatcher_delight.fish_and_chips_common.1": "생선에 대한 모욕이며, 이걸 억지로 맛봐야 하는 사람에게도 모욕이다.",
+
+    "item.starcatcher_delight.fish_and_chips_uncommon": "피시 앤 칩스",
+    "tooltip.starcatcher_delight.fish_and_chips_uncommon.0": "생선과 감자가 풍부한, 오버월드 북부 섬에서",
+    "tooltip.starcatcher_delight.fish_and_chips_uncommon.1": "흔히 볼 수 있는 요리. 하지만 이건 눅눅해졌다. ",
+    "tooltip.starcatcher_delight.fish_and_chips_uncommon.2": "불행이도 먹어야 한다면 다음 번에는 더 나은 걸 찾는게 좋겠다.",
+
+    "item.starcatcher_delight.fish_and_chips_rare": "피시 앤 칩스",
+    "tooltip.starcatcher_delight.fish_and_chips_rare.0": "황금색의 바삭한 감자튀김과 함께 제공되는 생선 필레.",
+    "tooltip.starcatcher_delight.fish_and_chips_rare.1": "그냥 맛있다.",
+
+    "item.starcatcher_delight.fish_and_chips_epic": "피시 앤 칩스",
+    "tooltip.starcatcher_delight.fish_and_chips_epic.0": "가장 단순한 재료를 사용하더라도, 생선 요리가 어디까지 가능한지 보여주는 예제.",
+    "tooltip.starcatcher_delight.fish_and_chips_epic.2": "생선의 풍미가 감자튀김의 짭짤함과 완벽하게 어우러져 천국 같은 조합을 이룬다.",
+
+    "item.starcatcher_delight.fish_and_chips_legendary": "피시 앤 칩스",
+    "tooltip.starcatcher_delight.fish_and_chips_legendary.0": "튀김옷을 입힌 생선 필레를 완벽하게 튀겨냈다.",
+    "tooltip.starcatcher_delight.fish_and_chips_legendary.1": "바삭한 감자튀김이 곁들여져 기적같은 조합을 이룬다.",
+    "tooltip.starcatcher_delight.fish_and_chips_legendary.2": "마지막 감자튀김까지 접시를 싹싹 긁어먹게 될 것이다.",
+}

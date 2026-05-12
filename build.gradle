@@ -33,8 +33,13 @@ repositories {
 }
 
 dependencies {
+
     implementation("maven.modrinth:farmers-delight:${farmersdelight_version}")
     implementation("maven.modrinth:starcatcher:${starcatcher_version}")
+
+    //fancy tab sections
+    jarJar(implementation("maven.modrinth:fancytabsections:2.0-NEOFORGE-1.21.1"))
+
 
     //implementation files(".compatmods/starcatcher-2.2-PREVIEW-NEOFORGE-1.21.1.jar")
 
@@ -150,7 +155,6 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_license            : mod_license,
             mod_version            : mod_version,
             mod_authors            : mod_authors,
-            mod_description        : mod_description,
 
             farmersdelight_version : farmersdelight_version,
             starcatcher_version    : starcatcher_version

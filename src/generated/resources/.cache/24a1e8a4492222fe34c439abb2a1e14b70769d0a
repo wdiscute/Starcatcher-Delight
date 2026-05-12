@@ -1,9 +1,7 @@
-// 1.21.1	2026-02-02T12:26:55.8870173	Tags for minecraft:item mod id starcatcher_delight
-8065acdfc8ca402aa5120d66ef4295d7e0ae32e2 data/starcatcher_delight/tags/item/common_dishes.json
-a7d6436d0a4ce280cc6c2ea988d23dab8b61456b data/starcatcher_delight/tags/item/epic_dishes.json
+// 1.21.1	2026-05-12T19:07:05.4413232	Tags for minecraft:item mod id starcatcher_delight
+e0079b792c84c1e1abe51e244d8e6e8419115528 data/starcatcher_delight/tags/item/common_dishes.json
+4812cb66ddb2ea4c31e38c010be23c89c5269eca data/starcatcher_delight/tags/item/epic_dishes.json
 da5f3983176aec4b0d3730705d6c214f6c6a62fc data/starcatcher_delight/tags/item/filet_fishes.json
-6a39d4728de27f77cdcbc9115e05c33b61752f9a data/starcatcher_delight/tags/item/legendary_dishes.json
-6ccbdacf0829d39b06b68bc1a7da9d4bce88b37d data/starcatcher_delight/tags/item/rare_dishes.json
-beaa5c26c993d7cff0691cafedc25bdcc72574fe data/starcatcher_delight/tags/item/special_fish_dishes.json
-7fdcb543c821d8b23f701df0c34b9b389bbe0a9d data/starcatcher_delight/tags/item/uncommon_dishes.json
-84055d8a642cfb990eecf16b7998dc174318d963 data/starcatcher_delight/tags/item/worms.json
+fa88fc3fe28d6fa1a5256bf3a83ac9d5a8c078c6 data/starcatcher_delight/tags/item/legendary_dishes.json
+5340e453037a4e87483af328279d77d8f395f6c7 data/starcatcher_delight/tags/item/rare_dishes.json
+d6239f1199c80ba105309f8bfc54984e2b289f02 data/starcatcher_delight/tags/item/uncommon_dishes.json

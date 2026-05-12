@@ -9,7 +9,19 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
-description='''${mod_description}'''
+description='''An addon for Farmer's Delight adding foods using Starcatcher's fishes!
+
+Credits:
+
+Coding:
+-wdiscute
+-Axtrough
+
+Art:
+-Redeix
+-wdiscute
+-Komotomoth
+'''
 
 [[dependencies.${mod_id}]]
     modId="neoforge"

@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "tag": "starcatcher:common_fishes"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1,
+    "id": "starcatcher_delight:sweet_berry_taiyaki"
+  }
+}

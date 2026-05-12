@@ -16,7 +16,6 @@ import net.neoforged.fml.ModContainer;
 public class StarcatcherDelight
 {
     public static final String MOD_ID = "starcatcher_delight";
-    public static final Logger LOGGER = LogUtils.getLogger();
 
     public StarcatcherDelight(IEventBus modEventBus, ModContainer modContainer)
     {

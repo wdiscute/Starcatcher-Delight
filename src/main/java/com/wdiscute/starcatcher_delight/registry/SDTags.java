@@ -22,8 +22,6 @@ public class SDTags {
         public static final TagKey<Item> EPIC_DISHES = createTag("epic_dishes");
         public static final TagKey<Item> LEGENDARY_DISHES = createTag("legendary_dishes");
 
-        public static final TagKey<Item> WORMS = createTag("worms");
-
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(StarcatcherDelight.MOD_ID, name));
         }

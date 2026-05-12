@@ -1,9 +1,10 @@
 {
   "values": [
     "starcatcher_delight:starcaught_fillet_epic",
-    "starcatcher_delight:futomaki_epic",
+    "starcatcher_delight:hosomaki_epic",
+    "starcatcher_delight:temaki_epic",
+    "starcatcher_delight:uramaki_epic",
     "starcatcher_delight:nigiri_epic",
-    "starcatcher_delight:healthy_fish_omelette_epic",
     "starcatcher_delight:fish_salad_epic",
     "starcatcher_delight:fish_and_chips_epic"
   ]

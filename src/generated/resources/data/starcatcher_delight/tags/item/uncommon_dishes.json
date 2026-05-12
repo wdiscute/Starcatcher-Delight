@@ -1,9 +1,10 @@
 {
   "values": [
     "starcatcher_delight:starcaught_fillet_uncommon",
-    "starcatcher_delight:futomaki_uncommon",
+    "starcatcher_delight:hosomaki_uncommon",
+    "starcatcher_delight:temaki_uncommon",
+    "starcatcher_delight:uramaki_uncommon",
     "starcatcher_delight:nigiri_uncommon",
-    "starcatcher_delight:healthy_fish_omelette_uncommon",
     "starcatcher_delight:fish_salad_uncommon",
     "starcatcher_delight:fish_and_chips_uncommon"
   ]
