@@ -47,7 +47,6 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
     {
         cookMeals(output);
 
-
         cutRecipe(SCTags.COMMON_FISHES, SDItems.STARCAUGHT_FILLET.getCommon(), output);
         cutRecipe(SCTags.UNCOMMON_FISHES, SDItems.STARCAUGHT_FILLET.getUncommon(), output);
         cutRecipe(SCTags.RARE_FISHES, SDItems.STARCAUGHT_FILLET.getRare(), output);
