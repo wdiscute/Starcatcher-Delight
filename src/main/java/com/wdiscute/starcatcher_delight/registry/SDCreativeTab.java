@@ -1,6 +1,5 @@
 package com.wdiscute.starcatcher_delight.registry;
 
-import com.wdiscute.starcatcher.registry.SCItems;
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import net.mcexpanded.fancytabsections.FancyTabSections;
 import net.mcexpanded.fancytabsections.creativetab.ConglomerateOfItems;
@@ -57,7 +56,7 @@ public class SDCreativeTab
         );
     }
 
-    private static void generic(ConglomerateOfItems con, StarcatcherFood food)
+    private static void generic(ConglomerateOfItems con, StarcatcherGenericFood food)
     {
         for (int i = 0; i < 6; i++)
         {

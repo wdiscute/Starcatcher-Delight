@@ -6,11 +6,11 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class StarcatcherFood
+public class StarcatcherGenericFood
 {
     private final List<DeferredItem<Item>> items;
 
-    public StarcatcherFood(List<DeferredItem<Item>> items)
+    public StarcatcherGenericFood(List<DeferredItem<Item>> items)
     {
         this.items = items;
     }

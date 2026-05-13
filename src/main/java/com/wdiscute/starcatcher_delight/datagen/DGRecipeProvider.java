@@ -87,15 +87,15 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output);
 
-//        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.MAGMA_FISH_BALLS.get(), 4, SLOW_COOKING, MEDIUM_EXP)
-//                .unlockedByAnyIngredient(SCItems.MAGMA_FISH)
-//                .addIngredient(SCTags.WORMS)
-//                .addIngredient(SCItems.MAGMA_FISH)
-//                .addIngredient(CommonTags.FOODS_TOMATO)
-//                .addIngredient(CommonTags.FOODS_DOUGH)
-//                .addIngredient(Items.EGG)
-//                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-//                .build(output);
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.MAGMA_FISH_BALLS.get(), 4, SLOW_COOKING, MEDIUM_EXP)
+                .unlockedByAnyIngredient(SCItems.MAGMA_FISH)
+                .addIngredient(SCTags.WORMS)
+                .addIngredient(SCItems.MAGMA_FISH)
+                .addIngredient(CommonTags.FOODS_TOMATO)
+                .addIngredient(CommonTags.FOODS_DOUGH)
+                .addIngredient(Items.EGG)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.SLUDGE_STEW.get(), 1, SLOW_COOKING, MEDIUM_EXP)
                 .addIngredient(SCItems.SLUDGE_CATFISH)
@@ -199,6 +199,15 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                 .build(output);
 
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.WEATHER_SOUP.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+                .addIngredient(SCItems.LIGHTNING_BASS)
+                .addIngredient(SCItems.THUNDER_BASS)
+                .addIngredient(Items.BROWN_MUSHROOM)
+                .addIngredient(Items.POTATO)
+                .unlockedByAnyIngredient(SCItems.LIGHTNING_BASS, SCItems.THUNDER_BASS)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                .build(output);
+
         //generic quality foods
         for (int i = 0; i < 6; i++)
         {
@@ -240,13 +249,13 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
                     .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.NIGIRI.get(i).get()).getPath()));
 
             //healthy fish omelette
-//            CookingPotRecipeBuilder.cookingPotRecipe(SDItems.HEALTHY_FISH_OMELETTE.get(i), 1, SLOW_COOKING, MEDIUM_EXP)
-//                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
-//                    .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
-//                    .addIngredient(CommonTags.FOODS_TOMATO)
-//                    .addIngredient(Items.EGG)
-//                    .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-//                    .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.HEALTHY_FISH_OMELETTE.get(i).get()).getPath()));
+            CookingPotRecipeBuilder.cookingPotRecipe(SDItems.HEALTHY_FISH_OMELETTE.get(i), 1, SLOW_COOKING, MEDIUM_EXP)
+                    .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
+                    .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                    .addIngredient(CommonTags.FOODS_TOMATO)
+                    .addIngredient(Items.EGG)
+                    .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
+                    .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.HEALTHY_FISH_OMELETTE.get(i).get()).getPath()));
 
             //fish salad
             CookingPotRecipeBuilder.cookingPotRecipe(SDItems.FISH_SALAD.get(i), 1, SLOW_COOKING, MEDIUM_EXP)

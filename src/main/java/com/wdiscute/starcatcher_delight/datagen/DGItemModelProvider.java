@@ -24,7 +24,5 @@ public class DGItemModelProvider extends ItemModelProvider
         SDItems.RARE_FOODS.getEntries().forEach(o -> basicItem(o.get()));
         SDItems.EPIC_FOODS.getEntries().forEach(o -> basicItem(o.get()));
         SDItems.LEGENDARY_FOODS.getEntries().forEach(o -> basicItem(o.get()));
-
-
     }
 }
