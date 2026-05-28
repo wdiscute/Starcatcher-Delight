@@ -1,0 +1,311 @@
+{
+  "creativetab.starcatcher_delight.starcatcher_delight": "Starcatcher's Delight",
+  "creativetab.starcatcher_delight.starcatcher_delight.special": "Unique Dishes",
+  "creativetab.starcatcher_delight.starcatcher_delight.generic": "Fillet Dishes",
+
+  "tooltip.starcatcher.common": "Comum",
+  "tooltip.starcatcher.uncommon": "Incomum",
+  "tooltip.starcatcher.rare": "Raro",
+  "tooltip.starcatcher.epic": "Épico",
+  "tooltip.starcatcher.legendary": "Lendário",
+
+  "item.starcatcher_delight.cactifish_stew": "Ensopado de Peixe-Cacto",
+  "tooltip.starcatcher_delight.cactifish_stew.0": "Um ensopado espinhoso feito de peixe-cacto.",
+  "tooltip.starcatcher_delight.cactifish_stew.1": "Peixes-cacto não têm espinhos, mas as pessoas esperam que o ensopado deles tenha,",
+  "tooltip.starcatcher_delight.cactifish_stew.2": "então costuma-se adicionar um cacto para dar os espinhos.",
+
+  "item.starcatcher_delight.magma_fish_balls": "Bolinhos de Peixe de Magma",
+  "tooltip.starcatcher_delight.magma_fish_balls.0": "Um lanche que aventureiros costumam preparar para explorar o Nether.",
+  "tooltip.starcatcher_delight.magma_fish_balls.1": "Embora seja chato de preparar, o sabor delicioso faz tudo valer a pena!",
+
+  "item.starcatcher_delight.sludge_stew": "Ensopado de Lodo",
+  "tooltip.starcatcher_delight.sludge_stew.0": "Um ensopado de aparência nojenta, mas saboroso, feito de peixe-gato-do-lodo.",
+  "tooltip.starcatcher_delight.sludge_stew.1": "Um prato originário da culinária das vilas do pântano,",
+  "tooltip.starcatcher_delight.sludge_stew.2": "preparado com frequência com o que estivesse disponível.",
+  "tooltip.starcatcher_delight.sludge_stew.3": "Melhor se consumido com uma colher de osso.",
+
+  "item.starcatcher_delight.blossom_toast": "Torrada de Floração",
+  "tooltip.starcatcher_delight.blossom_toast.0": "Uma torrada saborosa com gosto de peixe, geralmente feita com peixe-das-flores.",
+  "tooltip.starcatcher_delight.blossom_toast.1": "Uma única mordida nesta torrada com certeza melhorará seu humor,",
+  "tooltip.starcatcher_delight.blossom_toast.2": "compartilhando um pouco do capricho das cerejeiras com todos ao seu redor.",
+
+  "item.starcatcher_delight.steamed_redscaled_tuna": "Atum de Escamas vermelhas Cozido no Vapor",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.0": "Um atum de escamas vermelhas cozido no vapor que certamente deixará você com um gosto de quero mais.",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.1": "O acompanhamento de vegetais combina perfeitamente com o sabor do atum,",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.2": "resultando em um prato surpreendentemente saboroso.",
+
+  "item.starcatcher_delight.grilled_shroomfish": "Peixe-Cogumelo Grelhado",
+  "tooltip.starcatcher_delight.grilled_shroomfish.0": "Um peixe-cogumelo grelhado servido com vegetais e purê de batatas.",
+  "tooltip.starcatcher_delight.grilled_shroomfish.1": "Dizem que marinheiros presos em uma ilha de cogumelos criaram a receita,",
+  "tooltip.starcatcher_delight.grilled_shroomfish.2": "com nada além de batatas e alface para comer por meses.",
+
+  "item.starcatcher_delight.spore_nigiri": "Nigiri de Esporo",
+  "tooltip.starcatcher_delight.spore_nigiri.0": "Um pedaço único de nigiri feito de um peixe-esporo fresco (?).",
+  "tooltip.starcatcher_delight.spore_nigiri.1": "O aroma repugnante do peixe-esporo torna este um gosto adquirido.",
+  "tooltip.starcatcher_delight.spore_nigiri.2": "Cada mordida lembra você do ecossistema nojento que está digerindo.",
+
+  "item.starcatcher_delight.weather_soup": "Sopa de Tempo",
+  "tooltip.starcatcher_delight.weather_soup.0": "Quer você goste do tempo ou não, esta sopa com certeza dominará seu dia!",
+
+
+
+  "item.starcatcher_delight.sweet_berry_taiyaki": "Taiyaki de Bagas Doces",
+  "tooltip.starcatcher_delight.sweet_berry_taiyaki.0": "Taiyaki recheado com uma pasta cremosa de bagas doces.",
+
+  "item.starcatcher_delight.glow_berry_taiyaki": "Taiyaki de Bagas Brilhantes",
+  "tooltip.starcatcher_delight.glow_berry_taiyaki.0": "Este doce tradicional feito de Bagas Brilhantes frescas é muito usado por aventureiros antes de mergulharem sob a ardósia profunda.",
+  "tooltip.starcatcher_delight.glow_berry_taiyaki.1": "Suas propriedades brilhantes permitem que outros os vejam de longe.",
+
+  "item.starcatcher_delight.chocolate_taiyaki": "Taiyaki de Chocolate",
+  "tooltip.starcatcher_delight.chocolate_taiyaki.0": "Taiyaki recheado com chocolate, geralmente dado a crianças comportadas.",
+
+  "item.starcatcher_delight.honey_taiyaki": "Taiyaki de Mel",
+  "tooltip.starcatcher_delight.honey_taiyaki.0": "Este tipo de taiyaki é tradicionalmente feito por apicultores,",
+  "tooltip.starcatcher_delight.honey_taiyaki.1": "e dado de presente ao venderem mel para viajantes.",
+
+  "item.starcatcher_delight.pumpkin_taiyaki": "Taiyaki de Abóbora",
+  "tooltip.starcatcher_delight.pumpkin_taiyaki.0": "O tipo mais comum de taiyaki.",
+  "tooltip.starcatcher_delight.pumpkin_taiyaki.1": "É doce e úmido, perfeito para quem procura um agrado.",
+
+  "item.starcatcher_delight.watermelon_taiyaki": "Taiyaki de Melancia",
+  "tooltip.starcatcher_delight.watermelon_taiyaki.0": "Mais comum em Selvas, este tipo de taiyaki é recheado com uma pasta de melancia, garantindo um sabor muito refrescante.",
+
+  "item.starcatcher_delight.suspicious_taiyaki": "Taiyaki?",
+  "tooltip.starcatcher_delight.suspicious_taiyaki.0": "Algo com formato de... taiyaki...",
+
+
+
+
+
+
+  "item.starcatcher_delight.starcaught_fillet": "Filé Estelar",
+  "tooltip.starcatcher_delight.starcaught_fillet.0": "§7Um filé de peixe de <Qualidade Desconhecida>",
+
+  "item.starcatcher_delight.starcaught_fillet_common": "Filé Estelar",
+  "tooltip.starcatcher_delight.starcaught_fillet_common.0": "Um filé de peixe cru com cheiro de que vai estragar nas próximas 3 horas.",
+
+  "item.starcatcher_delight.starcaught_fillet_uncommon": "Filé Estelar",
+  "tooltip.starcatcher_delight.starcaught_fillet_uncommon.0": "O ingrediente principal da culinária de peixes.",
+
+  "item.starcatcher_delight.starcaught_fillet_rare": "Filé Estelar",
+  "tooltip.starcatcher_delight.starcaught_fillet_rare.0": "Um belo filé de peixe.",
+  "tooltip.starcatcher_delight.starcaught_fillet_rare.1": "Seja qual for o prato em que ele terminar, certamente será de ótima qualidade.",
+
+  "item.starcatcher_delight.starcaught_fillet_epic": "Filé Estelar",
+  "tooltip.starcatcher_delight.starcaught_fillet_epic.0": "Um filé de peixe de qualidade notável.",
+  "tooltip.starcatcher_delight.starcaught_fillet_epic.1": "Só se pode esperar provar qualquer criação incrível em que ele for usado.",
+
+  "item.starcatcher_delight.starcaught_fillet_legendary": "Filé Estelar",
+  "tooltip.starcatcher_delight.starcaught_fillet_legendary.0": "Um filé de peixe incrivelmente precioso, obtido de um peixe <sclegendary>lendário</sclegendary>.",
+  "tooltip.starcatcher_delight.starcaught_fillet_legendary.1": "Uma pena que tenha terminado assim, mas é impossível não se perguntar qual prato delicioso preparar com ele.",
+
+
+
+
+
+  "item.starcatcher_delight.hosomaki": "Hosomaki",
+  "tooltip.starcatcher_delight.hosomaki.0": "§7Um pedaço de hosomaki de <Qualidade Desconhecida>",
+
+  "item.starcatcher_delight.hosomaki_common": "Hosomaki",
+  "tooltip.starcatcher_delight.hosomaki_common.0": "Uma tentativa de fazer hosomaki. O arroz está caindo para todo lado",
+  "tooltip.starcatcher_delight.hosomaki_common.1": "e o peixe cheira a estragado. Eca.",
+
+  "item.starcatcher_delight.hosomaki_uncommon": "Hosomaki",
+  "tooltip.starcatcher_delight.hosomaki_uncommon.0": "Um pedaço de hosomaki, cortado de um rolo.",
+  "tooltip.starcatcher_delight.hosomaki_uncommon.1": "Resta apenas torcer para que este pedaço tenha ficado com a pior parte",
+  "tooltip.starcatcher_delight.hosomaki_uncommon.2": "do peixe, por isso o sabor está tão sem graça.",
+
+  "item.starcatcher_delight.hosomaki_rare": "Hosomaki",
+  "tooltip.starcatcher_delight.hosomaki_rare.0": "Um pedaço saboroso de hosomaki, feito com peixe fresco.",
+  "tooltip.starcatcher_delight.hosomaki_rare.1": "Sushis desta qualidade costumam ser considerados um agrado luxuoso.",
+
+  "item.starcatcher_delight.hosomaki_epic": "Hosomaki",
+  "tooltip.starcatcher_delight.hosomaki_epic.0": "Um exemplo perfeito de como preparar sushi de qualidade.",
+  "tooltip.starcatcher_delight.hosomaki_epic.1": "Uma única mordida com certeza levará você a um mundo de prazer,",
+  "tooltip.starcatcher_delight.hosomaki_epic.2": "desejando mais e mais até que todo o rolo acabe.",
+
+  "item.starcatcher_delight.hosomaki_legendary": "Hosomaki",
+  "tooltip.starcatcher_delight.hosomaki_legendary.0": "Um exemplo deslumbrante de culinária de peixes que outros pratos só podem sonhar em se tornar.",
+  "tooltip.starcatcher_delight.hosomaki_legendary.1": "Este pedaço de sushi fará até o mais exigente dos comedores querer mais.",
+  "tooltip.starcatcher_delight.hosomaki_legendary.2": "Infelizmente para eles, não sobrará nada depois que você provar.",
+
+
+
+
+
+  "item.starcatcher_delight.nigiri": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri.0": "§7Um nigiri de <Qualidade Desconhecida>",
+
+  "item.starcatcher_delight.nigiri_common": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_common.0": "Um pedaço nojento de nigiri. Quase não se mantém inteiro.",
+  "tooltip.starcatcher_delight.nigiri_common.1": "A cor do peixe faz com que nada pareça minimamente apetitoso.",
+
+  "item.starcatcher_delight.nigiri_uncommon": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_uncommon.0": "A tentativa de um aprendiz de fazer nigiri.",
+  "tooltip.starcatcher_delight.nigiri_uncommon.1": "Embora o peixe não pareça ser da melhor qualidade,",
+  "tooltip.starcatcher_delight.nigiri_uncommon.2": "servirá como um lanche quando necessário.",
+
+  "item.starcatcher_delight.nigiri_rare": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_rare.0": "Um nigiri bem preparado, feito com peixe fresco sobre arroz macio.",
+  "tooltip.starcatcher_delight.nigiri_rare.1": "Um verdadeiro deleite para o seu paladar.",
+
+  "item.starcatcher_delight.nigiri_epic": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_epic.0": "Um pedaço de nigiri com aparência incrível.",
+  "tooltip.starcatcher_delight.nigiri_epic.1": "O arroz não só parece extremamente apetitoso,",
+  "tooltip.starcatcher_delight.nigiri_epic.2": "como a atenção à apresentação é notável, tornando difícil resistir a uma mordida.",
+
+  "item.starcatcher_delight.nigiri_legendary": "Nigiri",
+  "tooltip.starcatcher_delight.nigiri_legendary.0": "Embora o preparo deste tipo de sushi não seja tipicamente sofisticado,",
+  "tooltip.starcatcher_delight.nigiri_legendary.1": "este pedaço específico desafia tudo o que você soube sobre sushi em toda a sua vida.",
+  "tooltip.starcatcher_delight.nigiri_legendary.2": "O peixe delicado foi colocado cuidadosamente sobre arroz cozido com perfeição.",
+  "tooltip.starcatcher_delight.nigiri_legendary.3": "O aroma que exala dá água na boca, implorando para que você o prove.",
+
+
+
+
+
+  "item.starcatcher_delight.temaki": "Temaki",
+  "tooltip.starcatcher_delight.temaki.0": "§7Temaki de <Qualidade Desconhecida>",
+
+  "item.starcatcher_delight.temaki_common": "Temaki",
+  "tooltip.starcatcher_delight.temaki_common.0": "Um pedaço nojento de temaki. O arroz tenta ao máximo escapar da alga em forma de cone,",
+  "tooltip.starcatcher_delight.temaki_common.1": "mas de alguma forma é contido pelo cheiro do filé. Nojento.",
+
+  "item.starcatcher_delight.temaki_uncommon": "Temaki",
+  "tooltip.starcatcher_delight.temaki_uncommon.0": "Uma tentativa de fazer temaki, claramente feita por um chef iniciante.",
+  "tooltip.starcatcher_delight.temaki_uncommon.1": "Peixe de má qualidade resulta em sushi ruim. Nada mais a dizer.",
+
+  "item.starcatcher_delight.temaki_rare": "Temaki",
+  "tooltip.starcatcher_delight.temaki_rare.0": "Um pedaço de temaki montado cuidadosamente com um peixe decente.",
+  "tooltip.starcatcher_delight.temaki_rare.1": "Cada mordida oferece um equilíbrio agradável de textura e sabor,",
+  "tooltip.starcatcher_delight.temaki_rare.2": "tornando-o um petisco surpreendentemente agradável.",
+
+  "item.starcatcher_delight.temaki_epic": "Temaki",
+  "tooltip.starcatcher_delight.temaki_epic.0": "Um pedaço requintado de temaki, feito com clara experiência.",
+  "tooltip.starcatcher_delight.temaki_epic.1": "A alga está perfeitamente moldada em forma de cone,",
+  "tooltip.starcatcher_delight.temaki_epic.2": "enquanto o recheio explode com um sabor rico que permanece muito tempo após a última mordida.",
+
+  "item.starcatcher_delight.temaki_legendary": "Temaki",
+  "tooltip.starcatcher_delight.temaki_legendary.0": "Transcendendo a própria ideia de comida simples,",
+  "tooltip.starcatcher_delight.temaki_legendary.1": "cada ingrediente foi escolhido com uma precisão impossível,",
+  "tooltip.starcatcher_delight.temaki_legendary.2": "harmonizando-se em uma obra-prima que parece quase irreal.",
+  "tooltip.starcatcher_delight.temaki_legendary.3": "Uma mordida é o suficiente para convencer você de que a perfeição realmente existe.",
+
+
+
+
+
+
+  "item.starcatcher_delight.uramaki_common": "Uramaki",
+  "tooltip.starcatcher_delight.uramaki_common.0": "Um pedaço de uramaki mal enrolado.",
+  "tooltip.starcatcher_delight.uramaki_common.1": "O arroz está seco e irregular,",
+  "tooltip.starcatcher_delight.uramaki_common.2": "e o recheio mal fica dentro tempo suficiente para ser comido.",
+
+  "item.starcatcher_delight.uramaki_uncommon": "Uramaki",
+  "tooltip.starcatcher_delight.uramaki_uncommon.0": "Uma tentativa aceitável de uramaki feita por uma mão inexperiente.",
+  "tooltip.starcatcher_delight.uramaki_uncommon.1": "O rolo é utilizável, embora um pouco desleixado,",
+  "tooltip.starcatcher_delight.uramaki_uncommon.2": "e embora os sabores sejam suaves, cumpre o seu papel.",
+
+  "item.starcatcher_delight.uramaki_rare": "Uramaki",
+  "tooltip.starcatcher_delight.uramaki_rare.0": "Um uramaki bem enrolado com um filé fresco em seu interior.",
+  "tooltip.starcatcher_delight.uramaki_rare.1": "O arroz complementa muito bem o peixe,",
+  "tooltip.starcatcher_delight.uramaki_rare.2": "resultando em uma mordida satisfatória e equilibrada.",
+
+  "item.starcatcher_delight.uramaki_epic": "Uramaki",
+  "tooltip.starcatcher_delight.uramaki_epic.0": "Um pedaço de uramaki belamente feito que demonstra verdadeira habilidade.",
+  "tooltip.starcatcher_delight.uramaki_epic.1": "Cada grão de arroz está perfeitamente temperado,",
+  "tooltip.starcatcher_delight.uramaki_epic.2": "realçando os sabores vibrantes escondidos dentro do rolo.",
+
+  "item.starcatcher_delight.uramaki_legendary": "Uramaki",
+  "tooltip.starcatcher_delight.uramaki_legendary.0": "Este uramaki serve como prova de maestria culinária.",
+  "tooltip.starcatcher_delight.uramaki_legendary.1": "Sua construção impecável esconde camadas de sabor que se revelam a cada mordida,",
+  "tooltip.starcatcher_delight.uramaki_legendary.2": "cada uma mais profunda que a anterior.",
+  "tooltip.starcatcher_delight.uramaki_legendary.3": "Ao comê-lo, a sensação é de menos uma refeição e mais uma experiência para ser lembrada.",
+
+
+
+
+
+
+  "item.starcatcher_delight.fish_salad": "Salada de Peixe",
+  "tooltip.starcatcher_delight.fish_salad.0": "§7Uma salada de peixe de <Qualidade Desconhecida>",
+
+  "item.starcatcher_delight.fish_salad_common": "Salada de Peixe",
+  "tooltip.starcatcher_delight.fish_salad_common.0": "Uma salada de peixe decepcionantemente insossa.",
+
+  "item.starcatcher_delight.fish_salad_uncommon": "Salada de Peixe",
+  "tooltip.starcatcher_delight.fish_salad_uncommon.0": "Uma salada de peixe apressada, condizente com a qualidade do filé usado.",
+
+  "item.starcatcher_delight.fish_salad_rare": "Salada de Peixe",
+  "tooltip.starcatcher_delight.fish_salad_rare.0": "Uma salada de peixe bem preparada. Agradável aos olhos e ao estômago.",
+
+  "item.starcatcher_delight.fish_salad_epic": "Salada de Peixe",
+  "tooltip.starcatcher_delight.fish_salad_epic.0": "Uma salada incrivelmente bem vestida. É de se imaginar de onde vieram as roupas.",
+  "tooltip.starcatcher_delight.fish_salad_epic.1": "De qualquer forma, certamente manterá sua fome saciada por um tempo.",
+
+  "item.starcatcher_delight.fish_salad_legendary": "Salada de Peixe",
+  "tooltip.starcatcher_delight.fish_salad_legendary.0": "A salada de peixe mais apetitosa que você já teve o prazer de contemplar.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.1": "Tudo nela é perfeito, do tamanho da porção à apresentação.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.2": "Só de olhar, dá água na boca e vontade de provar um pedaço.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.3": "Melhor correr antes que acabe!",
+
+
+
+
+
+
+
+
+  "item.starcatcher_delight.healthy_fish_omelette": "Omelete de Peixe Saudável",
+  "tooltip.starcatcher_delight.healthy_fish_omelette.0": "§7Um omelete de peixe saudável de <Qualidade Desconhecida>",
+
+  "item.starcatcher_delight.healthy_fish_omelette_common": "Omelete de Peixe Saudável",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_common.0": "Ovo bruto, peixe malpassado e vegetais com gosto de papel.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_common.1": "Não há palavras para descrever como é difícil engolir esta tentativa de comida.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_uncommon": "Omelete de Peixe Saudável",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_uncommon.0": "O chamado de saudável para isto pode ser um pouco de exagero,",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_uncommon.1": "mas serve como uma refeição de tamanho razoável para saciar a fome por um tempo.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_rare": "Omelete de Peixe Saudável",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_rare.0": "Um omelete saboroso preparado com pedaços de peixe.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_rare.1": "Uma combinação única, mas tudo combina surpreendentemente bem.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_epic": "Omelete de Peixe Saudável",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_epic.0": "Um prato que realmente merece o chamado de saudável, feito com peixe fresco e vegetais,",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_epic.1": "com ovos cozidos com perfeição, servido com acompanhamento de folhas e tomate.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_legendary": "Omelete de Peixe Saudável",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.0": "Ovos batidos uniformemente e fritos ao ponto deixarão você com vontade de quero mais antes mesmo de provar.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.1": "Dá para notar que o peixe usado era de alta qualidade, pois atende perfeitamente às expectativas.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.2": "As folhas e o tomate combinam perfeitamente com o omelete, resultando em um prato não apenas saudável, mas também incrivelmente saboroso.",
+
+
+
+
+
+  "item.starcatcher_delight.fish_and_chips": "Peixe com Batata Frita",
+  "tooltip.starcatcher_delight.fish_and_chips.0": "§7Uma porção de peixe com batata frita de <Qualidade Desconhecida>",
+
+  "item.starcatcher_delight.fish_and_chips_common": "Peixe com Batata Frita",
+  "tooltip.starcatcher_delight.fish_and_chips_common.0": "Um prato grotesco feito por quem não sabe apreciar a verdadeira culinária de peixes.",
+  "tooltip.starcatcher_delight.fish_and_chips_common.1": "Um insulto não apenas ao peixe, mas também a quem tiver que provar isto.",
+
+  "item.starcatcher_delight.fish_and_chips_uncommon": "Peixe com Batata Frita",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.0": "Um prato típico das ilhas do norte do mundo principal,",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.1": "onde peixes e batatas são abundantes. Este aqui, no entanto, murchou.",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.2": "Quem tiver o azar de precisar comer isto deve buscar algo melhor na próxima vez.",
+
+  "item.starcatcher_delight.fish_and_chips_rare": "Peixe com Batata Frita",
+  "tooltip.starcatcher_delight.fish_and_chips_rare.0": "Um filé de peixe servido com acompanhamento de batatas douradas e crocantes.",
+  "tooltip.starcatcher_delight.fish_and_chips_rare.1": "Apenas delicioso.",
+
+  "item.starcatcher_delight.fish_and_chips_epic": "Peixe com Batata Frita",
+  "tooltip.starcatcher_delight.fish_and_chips_epic.0": "Uma demonstração do que a culinária de peixes é capaz, mesmo usando os ingredientes mais simples.",
+  "tooltip.starcatcher_delight.fish_and_chips_epic.2": "O sabor do peixe complementa perfeitamente o salgado das batatas em uma combinação divina.",
+
+  "item.starcatcher_delight.fish_and_chips_legendary": "Peixe com Batata Frita",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.0": "Filés de peixe empanados e fritos com perfeição.",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.1": "Batatas crocantes acompanham o prato em uma combinação milagrosa.",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.2": "Fará você raspar o prato ao comer a última batata."
+}
