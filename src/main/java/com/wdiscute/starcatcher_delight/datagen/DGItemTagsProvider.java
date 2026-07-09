@@ -1,6 +1,5 @@
 package com.wdiscute.starcatcher_delight.datagen;
 
-import com.wdiscute.starcatcher.registry.SCItems;
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
 import com.wdiscute.starcatcher_delight.registry.SDTags;
@@ -28,7 +27,7 @@ public class DGItemTagsProvider extends ItemTagsProvider
     {
         //fillets
         SDItems.STARCAUGHT_FILLET.stream().forEach(o -> tag(SDTags.Items.FILET_FISHES).add(o.value()));
-        SDItems.STARCAUGHT_FILLET.stream().forEach(o -> tag(CommonTags.FOODS_SAFE_RAW_FISH).add(o.value()));
+        SDItems.STARCAUGHT_FILLET.stream().forEach(o -> tag(CommonTags.Items.FOODS_SAFE_RAW_FISH).add(o.value()));
 
         //food rarity tags
         SDItems.COMMON_FOODS.getEntries().forEach(o -> tag(SDTags.Items.COMMON_DISHES).add(o.value()));

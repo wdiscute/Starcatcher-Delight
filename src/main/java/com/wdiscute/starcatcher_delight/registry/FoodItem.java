@@ -1,76 +1,73 @@
 package com.wdiscute.starcatcher_delight.registry;
 
-import com.wdiscute.starcatcher.registry.FishProperties;
+import com.wdiscute.libtooltips.Tooltips;
+import com.wdiscute.starcatcher.fish.Rarity;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class FoodItem extends Item
 {
-    OnEat onEat = (stack, level, entity) -> stack;
+    OnEat onEat;
 
-    public FoodItem(Properties properties)
-    {
-        super(properties);
-    }
+    final Rarity rarity;
 
-    public FoodItem(Properties properties, SDNutrition fp)
-    {
-        super(properties.food(fp.build()));
-        this.onEat = fp.onEat;
-    }
-
+    //special food constructor
     public FoodItem(SDNutrition fp)
     {
         super(new Properties().food(fp.build()));
         this.onEat = fp.onEat;
+        this.rarity = Rarity.NONE;
     }
 
-    public FoodItem()
+    //generic food constructor
+    public FoodItem(SDNutrition fp, Rarity rarity)
     {
-        super(new Properties());
+        super(new Properties().food(fp.build()));
+        this.onEat = fp.onEat;
+        this.rarity = rarity;
     }
 
-
-    public static FoodItem of(FishProperties.Rarity rarity, SDNutrition fp)
+    //generic food constructor helper
+    public static FoodItem generic(Rarity rarity, SDNutrition nut)
     {
-        if (rarity.equals(FishProperties.Rarity.COMMON))
+        if (rarity.equals(Rarity.COMMON))
         {
-            fp.nutrition(fp.nutrition);
-            fp.saturation(fp.saturation);
+            nut.nutrition(nut.nutrition);
+            nut.saturation(nut.saturation);
         }
 
-        if (rarity.equals(FishProperties.Rarity.UNCOMMON))
+        if (rarity.equals(Rarity.UNCOMMON))
         {
-            fp.nutrition(fp.nutrition + 1);
-            fp.saturation(fp.saturation + 1f);
+            nut.nutrition(nut.nutrition + 1);
+            nut.saturation(nut.saturation + 1);
         }
 
-        if (rarity.equals(FishProperties.Rarity.RARE))
+        if (rarity.equals(Rarity.RARE))
         {
-            fp.nutrition(fp.nutrition + 3);
-            fp.saturation(fp.saturation + 3f);
+            nut.nutrition(nut.nutrition + 2);
+            nut.saturation(nut.saturation + 2);
         }
 
-        if (rarity.equals(FishProperties.Rarity.EPIC))
+        if (rarity.equals(Rarity.EPIC))
         {
-            fp.nutrition(fp.nutrition + 6);
-            fp.saturation(fp.saturation + 6f);
+            nut.nutrition(nut.nutrition + 3);
+            nut.saturation(nut.saturation + 3);
         }
 
-        if (rarity.equals(FishProperties.Rarity.LEGENDARY))
+        if (rarity.equals(Rarity.LEGENDARY))
         {
-            fp.nutrition(fp.nutrition + 10);
-            fp.saturation(fp.saturation + 15f);
-            fp.effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 6000, 4), 1.0F);
+            nut.nutrition(nut.nutrition + 5);
+            nut.saturation(nut.saturation + 5);
+            nut.effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 6000, 4), 1.0F);
         }
 
-        return new FoodItem(fp);
+        return new FoodItem(nut, rarity);
     }
 
 
@@ -80,6 +77,12 @@ public class FoodItem extends Item
         if (onEat == null) return super.finishUsingItem(stack, level, livingEntity);
         ItemStack returnStack = onEat.run(stack, level, livingEntity);
         return returnStack == null ? super.finishUsingItem(stack, level, livingEntity) : returnStack;
+    }
+
+    @Override
+    public Component getName(ItemStack stack)
+    {
+        return Tooltips.resolveTagsToComponent(rarity.wrapWithRarityMarkdownAsString(Component.translatable(getDescriptionId()).getString()));
     }
 
     public interface OnEat

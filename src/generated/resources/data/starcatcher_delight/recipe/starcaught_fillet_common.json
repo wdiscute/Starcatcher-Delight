@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "starcatcher:common_starcaught_fishes"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "starcatcher_delight:starcaught_fillet_common"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "starcatcher:fish_bones"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

@@ -47,54 +47,48 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
     {
         cookMeals(output);
 
-        cutRecipe(SCTags.COMMON_FISHES, SDItems.STARCAUGHT_FILLET.getCommon(), output);
-        cutRecipe(SCTags.UNCOMMON_FISHES, SDItems.STARCAUGHT_FILLET.getUncommon(), output);
-        cutRecipe(SCTags.RARE_FISHES, SDItems.STARCAUGHT_FILLET.getRare(), output);
-        cutRecipe(SCTags.EPIC_FISHES, SDItems.STARCAUGHT_FILLET.getEpic(), output);
-        cutRecipe(SCTags.LEGENDARY_FISHES, SDItems.STARCAUGHT_FILLET.getLegendary(), output);
+        cutRecipe(SCTags.COMMON_STARCAUGHT_FISHES, SDItems.STARCAUGHT_FILLET.getCommon(), output);
+        cutRecipe(SCTags.UNCOMMON_STARCAUGHT_FISHES, SDItems.STARCAUGHT_FILLET.getUncommon(), output);
+        cutRecipe(SCTags.RARE_STARCAUGHT_FISHES, SDItems.STARCAUGHT_FILLET.getRare(), output);
+        cutRecipe(SCTags.EPIC_STARCAUGHT_FISHES, SDItems.STARCAUGHT_FILLET.getEpic(), output);
+        cutRecipe(SCTags.LEGENDARY_STARCAUGHT_FISHES, SDItems.STARCAUGHT_FILLET.getLegendary(), output);
     }
-
 
     private static void cutRecipe(TagKey<Item> input, ItemLike output, RecipeOutput o)
     {
         cutRecipe(Ingredient.of(input), output, o);
     }
 
-    private static void cutRecipe(ItemLike input, ItemLike output, RecipeOutput o)
-    {
-        cutRecipe(Ingredient.of(input), output, o);
-    }
-
     private static void cutRecipe(Ingredient input, ItemLike output, RecipeOutput o)
     {
-        CuttingBoardRecipeBuilder.cuttingRecipe(input, Ingredient.of(CommonTags.TOOLS_KNIFE), output, 1)
+        CuttingBoardRecipeBuilder.cuttingRecipe(input, Ingredient.of(CommonTags.Items.TOOLS_KNIFE), output, 1)
+                .addResult(SCItems.FISH_BONES)
                 .build(o, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(output.asItem()).getPath()));
     }
 
-
     private static void cookMeals(RecipeOutput output)
     {
-
         //special
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.CACTIFISH_STEW.get(), 1, NORMAL_COOKING, MEDIUM_EXP)
                 .addIngredient(SCItems.CACTIFISH)
-                .addIngredient(CommonTags.CROPS_TOMATO)
-                .addIngredient(CommonTags.CROPS_CABBAGE)
-                .addIngredient(CommonTags.CROPS_ONION)
+                .addIngredient(Items.CACTUS)
+                .addIngredient(CommonTags.Items.CROPS_TOMATO)
+                .addIngredient(CommonTags.Items.CROPS_CABBAGE)
+                .addIngredient(CommonTags.Items.CROPS_ONION)
                 .unlockedByAnyIngredient(SCItems.CACTIFISH)
                 .unlockedByAnyIngredient(Items.CACTUS)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.MAGMA_FISH_BALLS.get(), 4, SLOW_COOKING, MEDIUM_EXP)
                 .unlockedByAnyIngredient(SCItems.MAGMA_FISH)
                 .addIngredient(SCTags.WORMS)
                 .addIngredient(SCItems.MAGMA_FISH)
-                .addIngredient(CommonTags.FOODS_TOMATO)
-                .addIngredient(CommonTags.FOODS_DOUGH)
+                .addIngredient(CommonTags.Items.FOODS_TOMATO)
+                .addIngredient(CommonTags.Items.FOODS_DOUGH)
                 .addIngredient(Items.EGG)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.SLUDGE_STEW.get(), 1, SLOW_COOKING, MEDIUM_EXP)
                 .addIngredient(SCItems.SLUDGE_CATFISH)
@@ -105,33 +99,33 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .addIngredient(Items.BONE)
                 .unlockedByAnyIngredient(SCItems.SLUDGE_CATFISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.BLOSSOM_TOAST.get(), 1, SLOW_COOKING, MEDIUM_EXP)
                 .addIngredient(SCItems.BLOSSOMFISH)
-                .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                .addIngredient(CommonTags.Items.FOODS_LEAFY_GREEN)
                 .addIngredient(Items.BREAD)
                 .addIngredient(Items.PINK_PETALS)
                 .unlockedByAnyIngredient(SCItems.BLOSSOMFISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.STEAMED_REDSCALED_TUNA.get(), 1, SLOW_COOKING, MEDIUM_EXP)
                 .addIngredient(SCItems.REDSCALED_TUNA)
-                .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
-                .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
-                .addIngredient(CommonTags.FOODS_ONION)
+                .addIngredient(CommonTags.Items.FOODS_LEAFY_GREEN)
+                .addIngredient(CommonTags.Items.FOODS_LEAFY_GREEN)
+                .addIngredient(CommonTags.Items.FOODS_ONION)
                 .unlockedByAnyIngredient(SCItems.BLOSSOMFISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.GRILLED_SHROOMFISH.get(), 1, SLOW_COOKING, MEDIUM_EXP)
                 .addIngredient(SCItems.SHROOMFISH)
-                .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
+                .addIngredient(CommonTags.Items.FOODS_LEAFY_GREEN)
                 .addIngredient(Items.POTATO)
                 .unlockedByAnyIngredient(SCItems.SHROOMFISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.SPORE_NIGIRI.get(), 1, SLOW_COOKING, MEDIUM_EXP)
@@ -140,63 +134,63 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .addIngredient(RICE.get())
                 .unlockedByAnyIngredient(SCItems.SPOREFISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.SWEET_BERRY_TAIYAKI.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.SWEET_BERRY_TAIYAKI.get(), 2, FAST_COOKING, MEDIUM_EXP)
                 .addIngredient(Items.SWEET_BERRIES)
-                .addIngredient(CommonTags.FOODS_DOUGH)
-                .addIngredient(SCTags.COMMON_FISHES)
+                .addIngredient(CommonTags.Items.FOODS_DOUGH)
+                .addIngredient(SCTags.STARCAUGHT_FISHABLE_FISH)
                 .unlockedByAnyIngredient(Items.SWEET_BERRIES)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.GLOW_BERRY_TAIYAKI.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.GLOW_BERRY_TAIYAKI.get(), 2, FAST_COOKING, MEDIUM_EXP)
                 .addIngredient(Items.GLOW_BERRIES)
-                .addIngredient(CommonTags.FOODS_DOUGH)
-                .addIngredient(SCTags.COMMON_FISHES)
+                .addIngredient(CommonTags.Items.FOODS_DOUGH)
+                .addIngredient(SCTags.STARCAUGHT_FISHABLE_FISH)
                 .unlockedByAnyIngredient(Items.GLOW_BERRIES)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.CHOCOLATE_TAIYAKI.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.CHOCOLATE_TAIYAKI.get(), 2, FAST_COOKING, MEDIUM_EXP)
                 .addIngredient(Items.COCOA_BEANS)
-                .addIngredient(CommonTags.FOODS_DOUGH)
-                .addIngredient(SCTags.COMMON_FISHES)
+                .addIngredient(CommonTags.Items.FOODS_DOUGH)
+                .addIngredient(SCTags.STARCAUGHT_FISHABLE_FISH)
                 .unlockedByAnyIngredient(Items.COCOA_BEANS)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.HONEY_TAIYAKI.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.HONEY_TAIYAKI.get(), 2, FAST_COOKING, MEDIUM_EXP)
                 .addIngredient(Items.HONEY_BOTTLE)
-                .addIngredient(CommonTags.FOODS_DOUGH)
-                .addIngredient(SCTags.COMMON_FISHES)
+                .addIngredient(CommonTags.Items.FOODS_DOUGH)
+                .addIngredient(SCTags.STARCAUGHT_FISHABLE_FISH)
                 .unlockedByAnyIngredient(Items.HONEY_BOTTLE)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.PUMPKIN_TAIYAKI.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.PUMPKIN_TAIYAKI.get(), 2, FAST_COOKING, MEDIUM_EXP)
                 .addIngredient(PUMPKIN_SLICE.get())
-                .addIngredient(CommonTags.FOODS_DOUGH)
-                .addIngredient(SCTags.COMMON_FISHES)
+                .addIngredient(CommonTags.Items.FOODS_DOUGH)
+                .addIngredient(SCTags.STARCAUGHT_FISHABLE_FISH)
                 .unlockedByAnyIngredient(PUMPKIN_SLICE.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.WATERMELON_TAIYAKI.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.WATERMELON_TAIYAKI.get(), 2, FAST_COOKING, MEDIUM_EXP)
                 .addIngredient(Items.MELON_SLICE)
-                .addIngredient(CommonTags.FOODS_DOUGH)
-                .addIngredient(SCTags.COMMON_FISHES)
+                .addIngredient(CommonTags.Items.FOODS_DOUGH)
+                .addIngredient(SCTags.STARCAUGHT_FISHABLE_FISH)
                 .unlockedByAnyIngredient(Items.MELON_SLICE)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
-        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.SUSPICIOUS_TAIYAKI.get(), 1, SLOW_COOKING, MEDIUM_EXP)
+        CookingPotRecipeBuilder.cookingPotRecipe(SDItems.SUSPICIOUS_TAIYAKI.get(), 2, FAST_COOKING, MEDIUM_EXP)
                 .addIngredient(SCItems.WILLISH)
-                .addIngredient(CommonTags.FOODS_DOUGH)
-                .addIngredient(SCTags.COMMON_FISHES)
+                .addIngredient(CommonTags.Items.FOODS_DOUGH)
+                .addIngredient(SCTags.STARCAUGHT_FISHABLE_FISH)
                 .unlockedByAnyIngredient(SCItems.WILLISH)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
         CookingPotRecipeBuilder.cookingPotRecipe(SDItems.WEATHER_SOUP.get(), 1, SLOW_COOKING, MEDIUM_EXP)
                 .addIngredient(SCItems.LIGHTNING_BASS)
@@ -205,7 +199,7 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
                 .addIngredient(Items.POTATO)
                 .unlockedByAnyIngredient(SCItems.LIGHTNING_BASS, SCItems.THUNDER_BASS)
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
-                .build(output);
+                .save(output);
 
         //generic quality foods
         for (int i = 0; i < 6; i++)
@@ -250,8 +244,8 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
             //healthy fish omelette
             CookingPotRecipeBuilder.cookingPotRecipe(SDItems.HEALTHY_FISH_OMELETTE.get(i), 1, SLOW_COOKING, MEDIUM_EXP)
                     .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
-                    .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
-                    .addIngredient(CommonTags.FOODS_TOMATO)
+                    .addIngredient(CommonTags.Items.FOODS_LEAFY_GREEN)
+                    .addIngredient(CommonTags.Items.FOODS_TOMATO)
                     .addIngredient(Items.EGG)
                     .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                     .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.HEALTHY_FISH_OMELETTE.get(i).get()).getPath()));
@@ -259,8 +253,8 @@ public class DGRecipeProvider extends RecipeProvider implements IConditionBuilde
             //fish salad
             CookingPotRecipeBuilder.cookingPotRecipe(SDItems.FISH_SALAD.get(i), 1, SLOW_COOKING, MEDIUM_EXP)
                     .addIngredient(SDItems.STARCAUGHT_FILLET.get(i))
-                    .addIngredient(CommonTags.FOODS_LEAFY_GREEN)
-                    .addIngredient(CommonTags.FOODS_TOMATO)
+                    .addIngredient(CommonTags.Items.FOODS_LEAFY_GREEN)
+                    .addIngredient(CommonTags.Items.FOODS_TOMATO)
                     .setRecipeBookTab(CookingPotRecipeBookTab.MEALS)
                     .save(output, StarcatcherDelight.rl(BuiltInRegistries.ITEM.getKey(SDItems.FISH_SALAD.get(i).get()).getPath()));
 

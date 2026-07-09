@@ -1,12 +1,9 @@
 package com.wdiscute.starcatcher_delight;
 
-import com.wdiscute.starcatcher.U;
 import com.wdiscute.starcatcher_delight.registry.SDCreativeTab;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
+import com.wdiscute.utils.Utils;
 import net.minecraft.resources.ResourceLocation;
-import org.slf4j.Logger;
-
-import com.mojang.logging.LogUtils;
 
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -37,6 +34,6 @@ public class StarcatcherDelight
 
     public static ResourceLocation rl(String path)
     {
-        return U.rl(StarcatcherDelight.MOD_ID, path);
+        return Utils.rl(StarcatcherDelight.MOD_ID, path);
     }
 }

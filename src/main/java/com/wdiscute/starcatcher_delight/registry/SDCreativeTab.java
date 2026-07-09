@@ -2,8 +2,8 @@ package com.wdiscute.starcatcher_delight.registry;
 
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import net.mcexpanded.fancytabsections.FancyTabSections;
+import net.mcexpanded.fancytabsections.Section.SectionColored;
 import net.mcexpanded.fancytabsections.creativetab.ConglomerateOfItems;
-import net.mcexpanded.fancytabsections.creativetab.SectionColored;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

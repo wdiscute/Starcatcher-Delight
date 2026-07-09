@@ -18,6 +18,9 @@ version = mod_version
 group = mod_group_id
 
 repositories {
+
+    mavenLocal()
+
     maven {
         name = "Modrinth"
         url = "https://api.modrinth.com/maven"
@@ -34,11 +37,20 @@ repositories {
 
 dependencies {
 
+    //farmer's delight
     implementation("maven.modrinth:farmers-delight:${farmersdelight_version}")
+
+    //starcatcher
     implementation("maven.modrinth:starcatcher:${starcatcher_version}")
 
+    //libtooltips
+    compileOnly("maven.modrinth:libtooltips:2.3.1-NEOFORGE-1.21.1")
+
     //fancy tab sections
-    jarJar(implementation("maven.modrinth:fancytabsections:2.0-NEOFORGE-1.21.1"))
+    compileOnly("maven.modrinth:fancytabsections:3.1-NEOFORGE-1.21.1")
+
+    //wdUtils
+    compileOnly("com.wdiscute:wdUtils:1.0-NEOFORGE-1.21.1")
 
 
     //implementation files(".compatmods/starcatcher-2.2-PREVIEW-NEOFORGE-1.21.1.jar")
@@ -47,7 +59,10 @@ dependencies {
     //runtimeOnly("dev.emi:emi-neoforge:${emi_version}")
 
     compileOnly("mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}")
-    runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
+    //runtimeOnly("mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}")
+
+    compileOnly "dev.emi:emi-neoforge:${emi_version}:api"
+    runtimeOnly "dev.emi:emi-neoforge:${emi_version}"
 }
 
 base {

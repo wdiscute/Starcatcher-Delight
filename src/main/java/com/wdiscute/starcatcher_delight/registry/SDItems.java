@@ -1,13 +1,8 @@
 package com.wdiscute.starcatcher_delight.registry;
 
-import com.wdiscute.starcatcher.registry.FishProperties;
+import com.wdiscute.starcatcher.fish.Rarity;
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.damagesource.DamageSources;
-import net.minecraft.world.damagesource.DamageTypes;
-import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -16,7 +11,7 @@ import java.util.List;
 
 public interface SDItems
 {
-
+    //registers
     DeferredRegister.Items SPECIAL_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
     DeferredRegister.Items GENERIC_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
     DeferredRegister.Items COMMON_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
@@ -58,21 +53,22 @@ public interface SDItems
     StarcatcherGenericFood FISH_AND_CHIPS = genericFood("fish_and_chips", SDNutrition.FISH_AND_CHIPS);
 
 
-    private static DeferredItem<Item> specialFood(String name, SDNutrition fp)
+    private static DeferredItem<Item> specialFood(String name, SDNutrition nut)
     {
-        return SPECIAL_FOODS.register(name, () -> new FoodItem(fp));
+        return SPECIAL_FOODS.register(name, () -> new FoodItem(nut));
     }
 
-    private static StarcatcherGenericFood genericFood(String name, SDNutrition fp)
+    private static StarcatcherGenericFood genericFood(String name, SDNutrition nut)
     {
         List<DeferredItem<Item>> list = new ArrayList<>();
 
-        list.add(GENERIC_FOODS.register(name, () -> new FoodItem(fp)));
-        list.add(COMMON_FOODS.register(name + "_common", () -> FoodItem.of(FishProperties.Rarity.COMMON, fp)));
-        list.add(UNCOMMON_FOODS.register(name + "_uncommon", () -> FoodItem.of(FishProperties.Rarity.UNCOMMON, fp)));
-        list.add(RARE_FOODS.register(name + "_rare", () -> FoodItem.of(FishProperties.Rarity.RARE, fp)));
-        list.add(EPIC_FOODS.register(name + "_epic", () -> FoodItem.of(FishProperties.Rarity.EPIC, fp)));
-        list.add(LEGENDARY_FOODS.register(name + "_legendary", () -> FoodItem.of(FishProperties.Rarity.LEGENDARY, fp)));
+        list.add(GENERIC_FOODS.register(name, () -> FoodItem.generic(Rarity.NONE, nut)));
+        list.add(COMMON_FOODS.register(name + "_common", () -> FoodItem.generic(Rarity.COMMON, nut)));
+        list.add(UNCOMMON_FOODS.register(name + "_uncommon", () -> FoodItem.generic(Rarity.UNCOMMON, nut)));
+        list.add(RARE_FOODS.register(name + "_rare", () -> FoodItem.generic(Rarity.RARE, nut)));
+        list.add(EPIC_FOODS.register(name + "_epic", () -> FoodItem.generic(Rarity.EPIC, nut)));
+        list.add(LEGENDARY_FOODS.register(name + "_legendary", () -> FoodItem.generic(Rarity.LEGENDARY, nut)));
+
         return new StarcatcherGenericFood(list);
     }
 
