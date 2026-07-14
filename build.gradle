@@ -47,7 +47,7 @@ dependencies {
     compileOnly("maven.modrinth:libtooltips:2.3.1-NEOFORGE-1.21.1")
 
     //fancy tab sections
-    compileOnly("maven.modrinth:fancytabsections:3.1-NEOFORGE-1.21.1")
+    compileOnly("maven.modrinth:fancytabsections:5.0-NEOFORGE-1.21.1")
 
     //wdUtils
     compileOnly("com.wdiscute:wdUtils:1.2-NEOFORGE-1.21.1")
