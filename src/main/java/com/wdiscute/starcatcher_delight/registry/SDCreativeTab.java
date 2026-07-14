@@ -21,10 +21,11 @@ public class SDCreativeTab
         FancyTabSections.registerCreativeModeTab(bus, StarcatcherDelight.rl("starcatcher_delight"), SDItems.NIGIRI.getUncommon());
 
         //special
-        FancyTabSections.addSection(StarcatcherDelight.rl("starcatcher_delight_tab"),
+        FancyTabSections.addSection(StarcatcherDelight.rl("starcatcher_delight"),
                 new SectionColored(StarcatcherDelight.rl("special"))
-                        .setTextColor(0xff733838)
+                        .setBannerColor(0xff733838)
                         .add(SDItems.SPECIAL_FOODS)
+                        .setCentered(true)
         );
 
         //generics
@@ -38,10 +39,11 @@ public class SDCreativeTab
         generic(generics, SDItems.FISH_SALAD);
         generic(generics, SDItems.FISH_AND_CHIPS);
 
-        FancyTabSections.addSection(StarcatcherDelight.rl("starcatcher_delight_tab"),
+        FancyTabSections.addSection(StarcatcherDelight.rl("starcatcher_delight"),
                 new SectionColored(StarcatcherDelight.rl("generic"))
-                        .setTextColor(0xff733838)
+                        .setBannerColor(0xff733838)
                         .setItems(generics)
+                        .setCentered(true)
         );
     }
 
