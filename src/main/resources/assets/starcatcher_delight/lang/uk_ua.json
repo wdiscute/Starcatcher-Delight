@@ -1,0 +1,311 @@
+{
+  "itemGroup.starcatcher_delight.starcatcher_delight": "Starcatcher's Delight",
+  "section.starcatcher_delight.special" : "Унікальні страви",
+  "section.starcatcher_delight.generic" : "Страви з філе",
+
+  "tooltip.starcatcher.common" : "Звичайний",
+  "tooltip.starcatcher.uncommon" : "Незвичайний",
+  "tooltip.starcatcher.rare" : "Рідкісний",
+  "tooltip.starcatcher.epic" : "Епічний",
+  "tooltip.starcatcher.legendary" : "Легендарний",
+
+  "item.starcatcher_delight.cactifish_stew": "Рагу з кактусової риби",
+  "tooltip.starcatcher_delight.cactifish_stew.0": "Колюче рагу, приготоване з кактусової риби.",
+  "tooltip.starcatcher_delight.cactifish_stew.1": "Кактусові риби не колючі, але люди очікують, що рагу з них буде таким,",
+  "tooltip.starcatcher_delight.cactifish_stew.2": "тому зазвичай додають кактус для колючості.",
+
+  "item.starcatcher_delight.magma_fish_balls": "Кульки з магмової риби",
+  "tooltip.starcatcher_delight.magma_fish_balls.0": "Перекус, який часто готують шукачі пригод перед тим, як вирушити до Незеру.",
+  "tooltip.starcatcher_delight.magma_fish_balls.1": "Хоч їх і складно готувати, той факт, що вони такі смачні, вартий усіх зусиль!",
+
+  "item.starcatcher_delight.sludge_stew": "Мулове рагу",
+  "tooltip.starcatcher_delight.sludge_stew.0": "Огидне на вигляд, але напрочуд смачне рагу з мулового сома.",
+  "tooltip.starcatcher_delight.sludge_stew.1": "Страва, що походить з кухні болотяних сіл,",
+  "tooltip.starcatcher_delight.sludge_stew.2": "часто готується з усього, що є під рукою.",
+  "tooltip.starcatcher_delight.sludge_stew.3": "Найкраще їсти кістяною ложкою.",
+
+  "item.starcatcher_delight.blossom_toast": "Квітучий тост",
+  "tooltip.starcatcher_delight.blossom_toast.0": "Смачний тост зі смаком риби, зазвичай готується з квітучої риби.",
+  "tooltip.starcatcher_delight.blossom_toast.1": "Один шматочок цього тосту неодмінно підніме вам настрій,",
+  "tooltip.starcatcher_delight.blossom_toast.2": "ділячись частинкою вишневої примхи з усіма навколо.",
+
+  "item.starcatcher_delight.steamed_redscaled_tuna": "Червонолускатий тунець на пару",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.0": "Червонолускатий тунець на пару, який змусить вас бажати більшого.",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.1": "Гарнір із зелені ідеально доповнює смак тунця,",
+  "tooltip.starcatcher_delight.steamed_redscaled_tuna.2": "створюючи напрочуд ароматну страву.",
+
+  "item.starcatcher_delight.grilled_shroomfish": "Грибна риба на грилі",
+  "tooltip.starcatcher_delight.grilled_shroomfish.0": "Грибна риба на грилі, що подається з гарніром із зелені та картопляного пюре.",
+  "tooltip.starcatcher_delight.grilled_shroomfish.1": "Кажуть, рецепт походить від моряків, які застрягли на грибному острові,",
+  "tooltip.starcatcher_delight.grilled_shroomfish.2": "яким місяцями не було чого їсти, крім картоплі та салату.",
+
+  "item.starcatcher_delight.spore_nigiri": "Спорове нігірі",
+  "tooltip.starcatcher_delight.spore_nigiri.0": "Унікальне нігірі, приготоване зі свіжої (?) спорової риби.",
+  "tooltip.starcatcher_delight.spore_nigiri.1": "Огидний аромат спорової риби робить цю страву на любителя.",
+  "tooltip.starcatcher_delight.spore_nigiri.2": "Кожен шматочок нагадує вам про гидку екосистему, яку ви перетравлюєте.",
+
+  "item.starcatcher_delight.weather_soup": "Погодний суп",
+  "tooltip.starcatcher_delight.weather_soup.0": "Подобається вам це чи ні, але цей суп неодмінно вразить вас як грім серед ясного неба!",
+
+
+
+  "item.starcatcher_delight.sweet_berry_taiyaki": "Тайякі з солодкими ягодами",
+  "tooltip.starcatcher_delight.sweet_berry_taiyaki.0": "Тайякі, наповнені кремовою пастою з солодких ягід.",
+
+  "item.starcatcher_delight.glow_berry_taiyaki": "Тайякі зі світлими ягодами",
+  "tooltip.starcatcher_delight.glow_berry_taiyaki.0": "Цей традиційний смаколик зі свіжих світлих ягід часто використовують шукачі пригод перед зануренням під глибинний сланець.",
+  "tooltip.starcatcher_delight.glow_berry_taiyaki.1": "Його властивості світіння дозволяють іншим помічати їх здалеку.",
+
+  "item.starcatcher_delight.chocolate_taiyaki": "Шоколадні тайякі",
+  "tooltip.starcatcher_delight.chocolate_taiyaki.0": "Шоколадні тайякі, які часто дають слухняним дітям.",
+
+  "item.starcatcher_delight.honey_taiyaki": "Медові тайякі",
+  "tooltip.starcatcher_delight.honey_taiyaki.0": "Цей вид тайякі традиційно готують пасічники,",
+  "tooltip.starcatcher_delight.honey_taiyaki.1": "і дарують мандрівникам під час продажу меду.",
+
+  "item.starcatcher_delight.pumpkin_taiyaki": "Гарбузові тайякі",
+  "tooltip.starcatcher_delight.pumpkin_taiyaki.0": "Найпоширеніший вид тайякі.",
+  "tooltip.starcatcher_delight.pumpkin_taiyaki.1": "Вони солодкі та вологі, ідеальні для всіх, хто шукає ласощів.",
+
+  "item.starcatcher_delight.watermelon_taiyaki": "Кавунові тайякі",
+  "tooltip.starcatcher_delight.watermelon_taiyaki.0": "Найбільш поширені в джунглях, ці тайякі наповнені кавуновою пастою, що надає їм дуже освіжаючий смак.",
+
+  "item.starcatcher_delight.suspicious_taiyaki": "Тайякі?",
+  "tooltip.starcatcher_delight.suspicious_taiyaki.0": "Щось... у формі тайякі...",
+
+
+
+
+
+
+  "item.starcatcher_delight.starcaught_fillet": "Зоряне філе",
+  "tooltip.starcatcher_delight.starcaught_fillet.0": "§7Рибне філе <Невідомої якості>",
+
+  "item.starcatcher_delight.starcaught_fillet_common": "Зоряне філе",
+  "tooltip.starcatcher_delight.starcaught_fillet_common.0": "Сире рибне філе, яке пахне так, ніби зіпсується протягом наступних 3 годин.",
+
+  "item.starcatcher_delight.starcaught_fillet_uncommon": "Зоряне філе",
+  "tooltip.starcatcher_delight.starcaught_fillet_uncommon.0": "Головний інгредієнт рибної кухні.",
+
+  "item.starcatcher_delight.starcaught_fillet_rare": "Зоряне філе",
+  "tooltip.starcatcher_delight.starcaught_fillet_rare.0": "Гарне на вигляд рибне філе.",
+  "tooltip.starcatcher_delight.starcaught_fillet_rare.1": "Якою б не була страва, до якої воно зрештою потрапить, вона обов'язково буде чудової якості.",
+
+  "item.starcatcher_delight.starcaught_fillet_epic": "Зоряне філе",
+  "tooltip.starcatcher_delight.starcaught_fillet_epic.0": "Рибне філе дивовижної якості.",
+  "tooltip.starcatcher_delight.starcaught_fillet_epic.1": "Можна лише сподіватися скуштувати те неймовірне творіння, для якого воно буде використане.",
+
+  "item.starcatcher_delight.starcaught_fillet_legendary": "Зоряне філе",
+  "tooltip.starcatcher_delight.starcaught_fillet_legendary.0": "Неймовірно цінне рибне філе, отримане з <sclegendary>легендарної</sclegendary> риби.",
+  "tooltip.starcatcher_delight.starcaught_fillet_legendary.1": "Шкода, що все мало закінчитися саме так, але ви не можете не замислюватися, яку б смачну страву з нього приготувати.",
+
+
+
+
+
+  "item.starcatcher_delight.hosomaki": "Хосомакі",
+  "tooltip.starcatcher_delight.hosomaki.0": "§7Шматочок хосомакі <Невідомої якості>",
+
+  "item.starcatcher_delight.hosomaki_common": "Хосомакі",
+  "tooltip.starcatcher_delight.hosomaki_common.0": "Спроба приготувати шматочок хосомакі. Рис розсипається повсюди,",
+  "tooltip.starcatcher_delight.hosomaki_common.1": "а риба пахне так, ніби вона зіпсувалася. Фу.",
+
+  "item.starcatcher_delight.hosomaki_uncommon": "Хосомакі",
+  "tooltip.starcatcher_delight.hosomaki_uncommon.0": "Шматочок хосомакі, відрізаний від ролу.",
+  "tooltip.starcatcher_delight.hosomaki_uncommon.1": "Залишається лише сподіватися, що цьому шматочку дісталася найгірша частина",
+  "tooltip.starcatcher_delight.hosomaki_uncommon.2": "риби, і саме тому його смак такий прісний.",
+
+  "item.starcatcher_delight.hosomaki_rare": "Хосомакі",
+  "tooltip.starcatcher_delight.hosomaki_rare.0": "Смачний шматочок хосомакі, приготований зі свіжої риби.",
+  "tooltip.starcatcher_delight.hosomaki_rare.1": "Суші такої якості часто вважаються дещо розкішним частуванням.",
+
+  "item.starcatcher_delight.hosomaki_epic": "Хосомакі",
+  "tooltip.starcatcher_delight.hosomaki_epic.0": "Ідеальний приклад того, як треба готувати якісні суші.",
+  "tooltip.starcatcher_delight.hosomaki_epic.1": "Один шматочок неодмінно відправить вас у світ насолоди,",
+  "tooltip.starcatcher_delight.hosomaki_epic.2": "викликаючи бажання їсти ще і ще, поки весь рол не зникне.",
+
+  "item.starcatcher_delight.hosomaki_legendary": "Хосомакі",
+  "tooltip.starcatcher_delight.hosomaki_legendary.0": "Захоплюючий приклад рибної кухні, яким інші страви можуть лише мріяти стати.",
+  "tooltip.starcatcher_delight.hosomaki_legendary.1": "Цей шматочок суші гарантовано змусить навіть найвибагливіших гурманів хотіти ще.",
+  "tooltip.starcatcher_delight.hosomaki_legendary.2": "На жаль для них, нічого не залишиться після того, як ви самі його скуштуєте.",
+
+
+
+
+
+  "item.starcatcher_delight.nigiri": "Нігірі",
+  "tooltip.starcatcher_delight.nigiri.0": "§7Нігірі <Невідомої якості>",
+
+  "item.starcatcher_delight.nigiri_common": "Нігірі",
+  "tooltip.starcatcher_delight.nigiri_common.0": "Огидний шматочок нігірі. Він ледве тримається купи.",
+  "tooltip.starcatcher_delight.nigiri_common.1": "Колір риби робить усе це абсолютно неапетитним.",
+
+  "item.starcatcher_delight.nigiri_uncommon": "Нігірі",
+  "tooltip.starcatcher_delight.nigiri_uncommon.0": "Спроба учня приготувати нігірі.",
+  "tooltip.starcatcher_delight.nigiri_uncommon.1": "Хоча риба, здається, не найкращої якості,",
+  "tooltip.starcatcher_delight.nigiri_uncommon.2": "якщо буде потрібно, згодиться як перекус.",
+
+  "item.starcatcher_delight.nigiri_rare": "Нігірі",
+  "tooltip.starcatcher_delight.nigiri_rare.0": "Добре приготоване нігірі зі свіжої риби, викладеної на м'який рис.",
+  "tooltip.starcatcher_delight.nigiri_rare.1": "Справжня насолода для ваших смакових рецепторів.",
+
+  "item.starcatcher_delight.nigiri_epic": "Нігірі",
+  "tooltip.starcatcher_delight.nigiri_epic.0": "Неймовірно гарний шматочок нігірі.",
+  "tooltip.starcatcher_delight.nigiri_epic.1": "Мало того, що рис виглядає надзвичайно апетитно,",
+  "tooltip.starcatcher_delight.nigiri_epic.2": "увага до подачі настільки вражає, що важко втриматися від шматочка.",
+
+  "item.starcatcher_delight.nigiri_legendary": "Нігірі",
+  "tooltip.starcatcher_delight.nigiri_legendary.0": "Хоча приготування цього виду суші зазвичай не відрізняється вишуканістю,",
+  "tooltip.starcatcher_delight.nigiri_legendary.1": "саме цей шматочок кидає виклик усьому, що ви знали про суші все своє життя.",
+  "tooltip.starcatcher_delight.nigiri_legendary.2": "Ніжна риба була обережно викладена на ідеально зварений рис.",
+  "tooltip.starcatcher_delight.nigiri_legendary.3": "Її аромат викликає слинку, благаючи вас скуштувати її.",
+
+
+
+
+
+  "item.starcatcher_delight.temaki": "Темакі",
+  "tooltip.starcatcher_delight.temaki.0": "§7Темакі <Невідомої якості>",
+
+  "item.starcatcher_delight.temaki_common": "Темакі",
+  "tooltip.starcatcher_delight.temaki_common.0": "Огидний шматочок темакі. Рис щосили намагається втекти з конусоподібної ламінарії,",
+  "tooltip.starcatcher_delight.temaki_common.1": "але якимось чином його стримує запах філе. Гидота.",
+
+  "item.starcatcher_delight.temaki_uncommon": "Темакі",
+  "tooltip.starcatcher_delight.temaki_uncommon.0": "Спроба приготувати темакі, явно зроблена кухарем-новачком.",
+  "tooltip.starcatcher_delight.temaki_uncommon.1": "З риби поганої якості виходять погані суші. Більше нічого сказати.",
+
+  "item.starcatcher_delight.temaki_rare": "Темакі",
+  "tooltip.starcatcher_delight.temaki_rare.0": "Ретельно зібраний шматочок темакі з непоганою рибою.",
+  "tooltip.starcatcher_delight.temaki_rare.1": "Кожен шматочок забезпечує приємний баланс текстури та смаку,",
+  "tooltip.starcatcher_delight.temaki_rare.2": "роблячи це напрочуд приємним частуванням.",
+
+  "item.starcatcher_delight.temaki_epic": "Темакі",
+  "tooltip.starcatcher_delight.temaki_epic.0": "Вишуканий шматочок темакі, створений з очевидною майстерністю.",
+  "tooltip.starcatcher_delight.temaki_epic.1": "Ламінарія ідеально сформована у вигляді конуса,",
+  "tooltip.starcatcher_delight.temaki_epic.2": "тоді як начинка вибухає насиченим смаком, що залишається надовго після останнього шматочка.",
+
+  "item.starcatcher_delight.temaki_legendary": "Темакі",
+  "tooltip.starcatcher_delight.temaki_legendary.0": "Виходячи за межі самого поняття простої їжі,",
+  "tooltip.starcatcher_delight.temaki_legendary.1": "кожен інгредієнт був підібраний з неймовірною точністю,",
+  "tooltip.starcatcher_delight.temaki_legendary.2": "гармонійно поєднуючись у шедевр, який здається майже нереальним.",
+  "tooltip.starcatcher_delight.temaki_legendary.3": "Одного шматочка достатньо, щоб переконати вас, що досконалість дійсно існує.",
+
+
+
+
+
+
+  "item.starcatcher_delight.uramaki_common": "Урамакі",
+  "tooltip.starcatcher_delight.uramaki_common.0": "Погано скручений шматочок урамакі.",
+  "tooltip.starcatcher_delight.uramaki_common.1": "Рис сухий і нерівномірний,",
+  "tooltip.starcatcher_delight.uramaki_common.2": "а начинка ледве тримається всередині, щоб її можна було з'їсти.",
+
+  "item.starcatcher_delight.uramaki_uncommon": "Урамакі",
+  "tooltip.starcatcher_delight.uramaki_uncommon.0": "Стерпна спроба приготувати урамакі недосвідченою рукою.",
+  "tooltip.starcatcher_delight.uramaki_uncommon.1": "Рол цілком їстівний, хоча й трохи неохайний,",
+  "tooltip.starcatcher_delight.uramaki_uncommon.2": "і хоча смаки приглушені, він виконує свою задачу.",
+
+  "item.starcatcher_delight.uramaki_rare": "Урамакі",
+  "tooltip.starcatcher_delight.uramaki_rare.0": "Акуратно скручений урамакі зі свіжим філе всередині.",
+  "tooltip.starcatcher_delight.uramaki_rare.1": "Рис дуже добре доповнює рибу,",
+  "tooltip.starcatcher_delight.uramaki_rare.2": "створюючи ситний і збалансований смак.",
+
+  "item.starcatcher_delight.uramaki_epic": "Урамакі",
+  "tooltip.starcatcher_delight.uramaki_epic.0": "Прекрасно приготований шматочок урамакі, що демонструє справжню майстерність.",
+  "tooltip.starcatcher_delight.uramaki_epic.1": "Кожне зернятко рису ідеально приправлене,",
+  "tooltip.starcatcher_delight.uramaki_epic.2": "підкреслюючи яскраві смаки, заховані всередині ролу.",
+
+  "item.starcatcher_delight.uramaki_legendary": "Урамакі",
+  "tooltip.starcatcher_delight.uramaki_legendary.0": "Цей урамакі є свідченням кулінарної майстерності.",
+  "tooltip.starcatcher_delight.uramaki_legendary.1": "Його бездоганна структура приховує шари смаку, що розкриваються з кожним шматочком,",
+  "tooltip.starcatcher_delight.uramaki_legendary.2": "кожен з яких ще глибший за попередній.",
+  "tooltip.starcatcher_delight.uramaki_legendary.3": "Його споживання відчувається не стільки як прийом їжі, скільки як досвід, що має запам'ятатися.",
+
+
+
+
+
+
+  "item.starcatcher_delight.fish_salad": "Рибний салат",
+  "tooltip.starcatcher_delight.fish_salad.0": "§7Рибний салат <Невідомої якості>",
+
+  "item.starcatcher_delight.fish_salad_common": "Рибний салат",
+  "tooltip.starcatcher_delight.fish_salad_common.0": "Розчаровуюче прісний рибний салат.",
+
+  "item.starcatcher_delight.fish_salad_uncommon": "Рибний салат",
+  "tooltip.starcatcher_delight.fish_salad_uncommon.0": "Рибний салат на швидку руку, що відповідає якості використаного філе.",
+
+  "item.starcatcher_delight.fish_salad_rare": "Рибний салат",
+  "tooltip.starcatcher_delight.fish_salad_rare.0": "Гарно приготований рибний салат. Тішить як око, так і шлунок.",
+
+  "item.starcatcher_delight.fish_salad_epic": "Рибний салат",
+  "tooltip.starcatcher_delight.fish_salad_epic.0": "Неймовірно добре вбраний салат. Залишається гадати, де він узяв цей одяг.",
+  "tooltip.starcatcher_delight.fish_salad_epic.1": "Попри це, він неодмінно забезпечить вам ситість на деякий час.",
+
+  "item.starcatcher_delight.fish_salad_legendary": "Рибний салат",
+  "tooltip.starcatcher_delight.fish_salad_legendary.0": "Найбільш апетитний рибний салат, на який ви коли-небудь мали задоволення дивитися.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.1": "Усе в ньому ідеально: від розміру порції до подачі.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.2": "Дивлячись на нього, ви не можете стримати слинку від бажання з'їсти хоча б шматочок.",
+  "tooltip.starcatcher_delight.fish_salad_legendary.3": "Краще поспішати, поки все не з'їли!",
+
+
+
+
+
+
+
+
+  "item.starcatcher_delight.healthy_fish_omelette": "Корисний рибний омлет",
+  "tooltip.starcatcher_delight.healthy_fish_omelette.0": "§7Корисний рибний омлет <Невідомої якості>",
+
+  "item.starcatcher_delight.healthy_fish_omelette_common": "Корисний рибний омлет",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_common.0": "Сире яйце, недоварена риба та овочі, що смакують як папір.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_common.1": "Бракує слів, щоб описати, як важко проковтнути цю спробу приготувати їжу.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_uncommon": "Корисний рибний омлет",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_uncommon.0": "Називати це корисним може бути невеликим перебільшенням,",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_uncommon.1": "але це досить велика порція, щоб ви залишалися ситими деякий час.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_rare": "Корисний рибний омлет",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_rare.0": "Смачний омлет, приготований зі шматочками риби.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_rare.1": "Унікальна комбінація, але все напрочуд добре поєднується.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_epic": "Корисний рибний омлет",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_epic.0": "Страва, що справді заслуговує називатися корисною, приготована зі свіжої риби та овочів,",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_epic.1": "з ідеально підсмаженими яйцями, що подається з гарніром із зелені та помідорів.",
+
+  "item.starcatcher_delight.healthy_fish_omelette_legendary": "Корисний рибний омлет",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.0": "Рівномірно збиті яйця, підсмажені до напівготовності, викликають бажання з'їсти їх ще до того, як ви скуштуєте.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.1": "Ви можете сказати, що використана риба була високої якості, оскільки вона повністю відповідає вашим очікуванням.",
+  "tooltip.starcatcher_delight.healthy_fish_omelette_legendary.2": "Зелень і помідори ідеально пасують до омлету, створюючи не лише корисну, але й неймовірно смачну страву.",
+
+
+
+
+
+  "item.starcatcher_delight.fish_and_chips": "Риба з чипсами",
+  "tooltip.starcatcher_delight.fish_and_chips.0": "§7Порція риби з чипсами <Невідомої якості>",
+
+  "item.starcatcher_delight.fish_and_chips_common": "Риба з чипсами",
+  "tooltip.starcatcher_delight.fish_and_chips_common.0": "Гротескна страва, приготована тими, хто не може оцінити справжню рибну кухню.",
+  "tooltip.starcatcher_delight.fish_and_chips_common.1": "Образа не лише для риби, але й для всіх, хто буде змушений це скуштувати.",
+
+  "item.starcatcher_delight.fish_and_chips_uncommon": "Риба з чипсами",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.0": "Страва, типова для північних островів Верхнього світу,",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.1": "де риба та картопля є в надлишку. Але ця вже розм'якла.",
+  "tooltip.starcatcher_delight.fish_and_chips_uncommon.2": "Той, кому не пощастить і він буде змушений це з'їсти, наступного разу має пошукати щось краще.",
+
+  "item.starcatcher_delight.fish_and_chips_rare": "Риба з чипсами",
+  "tooltip.starcatcher_delight.fish_and_chips_rare.0": "Рибне філе, що подається з гарніром із золотистих і хрустких чипсів.",
+  "tooltip.starcatcher_delight.fish_and_chips_rare.1": "Просто смакота.",
+
+  "item.starcatcher_delight.fish_and_chips_epic": "Риба з чипсами",
+  "tooltip.starcatcher_delight.fish_and_chips_epic.0": "Демонстрація того, на що здатна рибна кухня, навіть при використанні найпростіших інгредієнтів.",
+  "tooltip.starcatcher_delight.fish_and_chips_epic.2": "Смак риби ідеально доповнює солоність чипсів, створюючи поєднання, створене на небесах.",
+
+  "item.starcatcher_delight.fish_and_chips_legendary": "Риба з чипсами",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.0": "Рибне філе в паніровці, ідеально обсмажене у фритюрі.",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.1": "Разом з ним подаються хрусткі чипси для дивовижного поєднання.",
+  "tooltip.starcatcher_delight.fish_and_chips_legendary.2": "Змусить вас вишкрібати тарілку, з'їдаючи останній чипс."
+}
