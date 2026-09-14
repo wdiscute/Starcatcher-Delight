@@ -1,0 +1,43 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[2,]" #mandatory
+
+license="MIT"
+
+issueTrackerURL="https://discord.gg/WsuFsGSegD" #optional
+
+[[mods]] #mandatory
+modId="starcatcher_delight"
+version="${mod_version}"
+displayName="${mod_name}"
+displayURL="http://curseforge.com/minecraft/mc-mods/starcatcher"
+logoFile = "icon.png"
+mod_authors="${mod_authors}" #optional
+description='''An addon for Farmer's Delight adding foods using Starcatcher's fishes!
+
+Credits:
+
+Coding:
+-wdiscute
+-Axtrough
+
+Art:
+-Redeix
+-wdiscute
+-Komotomoth
+-Spring
+'''
+
+[[dependencies.starcatcher]] #optional
+modId="forge" #mandatory
+mandatory=true #mandatory
+versionRange="${forge_version_range}" #mandatory
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.starcatcher]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

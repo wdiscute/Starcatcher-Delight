@@ -4,18 +4,20 @@ import com.wdiscute.starcatcher_delight.registry.SDCreativeTab;
 import com.wdiscute.starcatcher_delight.registry.SDItems;
 import com.wdiscute.utils.Utils;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.ModContainer;
 
 @Mod(StarcatcherDelight.MOD_ID)
 public class StarcatcherDelight
 {
     public static final String MOD_ID = "starcatcher_delight";
 
-    public StarcatcherDelight(IEventBus modEventBus, ModContainer modContainer)
+    public StarcatcherDelight()
     {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         //items
         SDItems.SPECIAL_FOODS.register(modEventBus);
         SDItems.GENERIC_FOODS.register(modEventBus);

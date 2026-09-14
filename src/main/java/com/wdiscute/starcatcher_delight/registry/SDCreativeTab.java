@@ -4,27 +4,21 @@ import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import net.mcexpanded.fancytabsections.FancyTabSections;
 import net.mcexpanded.fancytabsections.Section.SectionColored;
 import net.mcexpanded.fancytabsections.creativetab.ConglomerateOfItems;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Items;
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.registries.DeferredRegister;
+import net.minecraftforge.eventbus.api.IEventBus;
 
 public class SDCreativeTab
 {
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, StarcatcherDelight.MOD_ID);
-
     public static void register(IEventBus bus)
     {
 
-        FancyTabSections.registerCreativeModeTab(bus, StarcatcherDelight.rl("starcatcher_delight"), SDItems.NIGIRI.getUncommon());
+        FancyTabSections.registerCreativeModeTab(bus, StarcatcherDelight.rl("starcatcher_delight"), () -> SDItems.NIGIRI.getUncommon().toStack());
 
         //special
         FancyTabSections.addSection(StarcatcherDelight.rl("starcatcher_delight"),
                 new SectionColored(StarcatcherDelight.rl("special"))
                         .setBannerColor(0xff733838)
-                        .add(SDItems.SPECIAL_FOODS)
+                        .add((d) -> SDItems.SPECIAL_FOODS.getEntries().stream().map(o -> o.get().getDefaultInstance()).toList())
                         .setCentered(true)
         );
 

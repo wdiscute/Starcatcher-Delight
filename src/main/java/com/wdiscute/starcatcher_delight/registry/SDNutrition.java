@@ -1,6 +1,7 @@
 package com.wdiscute.starcatcher_delight.registry;
 
 import com.google.common.collect.ImmutableList;
+import com.mojang.datafixers.util.Pair;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EntityType;
@@ -9,6 +10,8 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.ItemLike;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 import java.util.function.Supplier;
 
@@ -113,10 +116,7 @@ public class SDNutrition
 
     public int nutrition = 1;
     public int saturation = 1;
-    public boolean canAlwaysEat = true;
-    public float secondsToEat = 1.6F;
-    public Optional<ItemStack> usingConvertsTo = Optional.empty();
-    public final ImmutableList.Builder<FoodProperties.PossibleEffect> effects = ImmutableList.builder();
+    private final List<Pair<Supplier<MobEffectInstance>, Float>> effects = new ArrayList<>();
 
     public SDNutrition nutrition(int nutrition)
     {
@@ -136,32 +136,21 @@ public class SDNutrition
         return this;
     }
 
-    public SDNutrition notAlwaysEdible()
-    {
-        this.canAlwaysEat = false;
-        return this;
-    }
-
-    public SDNutrition eatTime(float secondsToEat)
-    {
-        this.secondsToEat = secondsToEat;
-        return this;
-    }
-
     public SDNutrition effect(Supplier<MobEffectInstance> effectIn, float probability)
     {
-        this.effects.add(new FoodProperties.PossibleEffect(effectIn, probability));
-        return this;
-    }
-
-    public SDNutrition usingConvertsTo(ItemLike item)
-    {
-        this.usingConvertsTo = Optional.of(new ItemStack(item));
+        this.effects.add(Pair.of(effectIn, probability));
         return this;
     }
 
     public FoodProperties build()
     {
-        return new FoodProperties(this.nutrition, this.saturation, this.canAlwaysEat, this.secondsToEat, this.usingConvertsTo, this.effects.build());
+        FoodProperties.Builder builder = new FoodProperties.Builder()
+                .nutrition(nutrition)
+                .saturationMod(saturation);
+
+        for (Pair<Supplier<MobEffectInstance>, Float> effect : effects)
+            builder.effect(effect.getFirst(), effect.getSecond());
+
+        return builder.build();
     }
 }

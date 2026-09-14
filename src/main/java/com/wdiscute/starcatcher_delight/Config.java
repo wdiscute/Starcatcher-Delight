@@ -1,11 +1,11 @@
 package com.wdiscute.starcatcher_delight;
 
-import net.neoforged.neoforge.common.ModConfigSpec;
+import net.minecraftforge.common.ForgeConfigSpec;
 
 
 public class Config {
-    private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
-    static final ModConfigSpec SPEC = BUILDER.build();
+    private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
+    static final ForgeConfigSpec SPEC = BUILDER.build();
 
 
 }

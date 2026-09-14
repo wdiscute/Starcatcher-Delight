@@ -1,7 +1,7 @@
 package com.wdiscute.starcatcher_delight.registry;
 
 import net.minecraft.world.item.Item;
-import net.neoforged.neoforge.registries.DeferredItem;
+import net.nikdo53.neobackports.registry.DeferredItem;
 
 import java.util.List;
 import java.util.stream.Stream;

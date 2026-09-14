@@ -3,8 +3,8 @@ package com.wdiscute.starcatcher_delight.registry;
 import com.wdiscute.starcatcher.fish.Rarity;
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import net.minecraft.world.item.Item;
-import net.neoforged.neoforge.registries.DeferredItem;
-import net.neoforged.neoforge.registries.DeferredRegister;
+import net.nikdo53.neobackports.registry.DeferredItem;
+import net.nikdo53.neobackports.registry.DeferredRegisterTyped;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,13 +12,13 @@ import java.util.List;
 public interface SDItems
 {
     //registers
-    DeferredRegister.Items SPECIAL_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
-    DeferredRegister.Items GENERIC_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
-    DeferredRegister.Items COMMON_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
-    DeferredRegister.Items UNCOMMON_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
-    DeferredRegister.Items RARE_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
-    DeferredRegister.Items EPIC_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
-    DeferredRegister.Items LEGENDARY_FOODS = DeferredRegister.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegisterTyped.Items SPECIAL_FOODS = DeferredRegisterTyped.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegisterTyped.Items GENERIC_FOODS = DeferredRegisterTyped.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegisterTyped.Items COMMON_FOODS = DeferredRegisterTyped.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegisterTyped.Items UNCOMMON_FOODS = DeferredRegisterTyped.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegisterTyped.Items RARE_FOODS = DeferredRegisterTyped.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegisterTyped.Items EPIC_FOODS = DeferredRegisterTyped.createItems(StarcatcherDelight.MOD_ID);
+    DeferredRegisterTyped.Items LEGENDARY_FOODS = DeferredRegisterTyped.createItems(StarcatcherDelight.MOD_ID);
 
 
     //Specials

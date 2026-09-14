@@ -3,15 +3,15 @@ package com.wdiscute.starcatcher_delight.datagen;
 import com.wdiscute.starcatcher_delight.StarcatcherDelight;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.neoforge.common.data.BlockTagsProvider;
-import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import net.neoforged.neoforge.data.event.GatherDataEvent;
+import net.minecraftforge.common.data.BlockTagsProvider;
+import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.data.event.GatherDataEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber(modid = StarcatcherDelight.MOD_ID)
+@Mod.EventBusSubscriber(modid = StarcatcherDelight.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerator {
 
     @SubscribeEvent
@@ -22,7 +22,7 @@ public class DataGenerator {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         gen.addProvider(event.includeServer(), new DGItemModelProvider(output, helper));
-        gen.addProvider(event.includeServer(), new DGRecipeProvider(output, lookupProvider));
+        gen.addProvider(event.includeServer(), new DGRecipeProvider(output));
 
         BlockTagsProvider blockTagsProvider = new DGBlockTagsProvider(output, lookupProvider, helper);
         gen.addProvider(event.includeServer(), blockTagsProvider);
