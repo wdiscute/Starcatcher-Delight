@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "starcatcher:blossomfish"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "starcatcher_delight:blossom_toast"
+  }
+}
