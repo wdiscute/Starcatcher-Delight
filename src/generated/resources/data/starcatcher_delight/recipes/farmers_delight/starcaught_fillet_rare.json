@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "starcatcher:uncommon_starcaught_fishes"
+    }
+  ],
+  "result": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet_rare"
+    },
+    {
+      "item": "starcatcher:fish_bones"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet_rare"
+    },
+    {
+      "item": "farm_and_charm:lettuce"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:healthy_fish_omelette_rare"
+  }
+}

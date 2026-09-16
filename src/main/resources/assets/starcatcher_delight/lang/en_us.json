@@ -78,9 +78,6 @@
 
 
 
-  "item.starcatcher_delight.starcaught_fillet": "Starcaught Fillet",
-  "tooltip.starcatcher_delight.starcaught_fillet.0": "§7A fish fillet of <Unknown Quality>",
-
   "item.starcatcher_delight.starcaught_fillet_common": "Starcaught Fillet",
   "tooltip.starcatcher_delight.starcaught_fillet_common.0": "A raw fish fillet smelling as if it will go bad within the next 3 hours.",
 
@@ -102,9 +99,6 @@
 
 
 
-
-  "item.starcatcher_delight.hosomaki": "Hosomaki",
-  "tooltip.starcatcher_delight.hosomaki.0": "§7A piece of hosomaki of <Unknown Quality>",
 
   "item.starcatcher_delight.hosomaki_common": "Hosomaki",
   "tooltip.starcatcher_delight.hosomaki_common.0": "An attempt at a piece of hosomaki. The rice is spilling everywhere",
@@ -133,9 +127,6 @@
 
 
 
-  "item.starcatcher_delight.nigiri": "Nigiri",
-  "tooltip.starcatcher_delight.nigiri.0": "§7A Nigiri of <Unknown Quality>",
-
   "item.starcatcher_delight.nigiri_common": "Nigiri",
   "tooltip.starcatcher_delight.nigiri_common.0": "A gross piece of nigiri. It barely holds together.",
   "tooltip.starcatcher_delight.nigiri_common.1": "The fish color makes the entire thing not appetizing in the slightest.",
@@ -163,9 +154,6 @@
 
 
 
-
-  "item.starcatcher_delight.temaki": "Temaki",
-  "tooltip.starcatcher_delight.temaki.0": "§7Tekami of <Unknown Quality>",
 
   "item.starcatcher_delight.temaki_common": "Temaki",
   "tooltip.starcatcher_delight.temaki_common.0": "A disgusting piece of temaki. The rice tries its best to escape the cone shaped kelp,",
@@ -227,9 +215,6 @@
 
 
 
-  "item.starcatcher_delight.fish_salad": "Fish Salad",
-  "tooltip.starcatcher_delight.fish_salad.0": "§7A fish salad of <Unknown Quality>",
-
   "item.starcatcher_delight.fish_salad_common": "Fish Salad",
   "tooltip.starcatcher_delight.fish_salad_common.0": "A disappointingly bland fish salad.",
 
@@ -256,9 +241,6 @@
 
 
 
-  "item.starcatcher_delight.healthy_fish_omelette": "Healthy Fish Omelette",
-  "tooltip.starcatcher_delight.healthy_fish_omelette.0": "§7A healthy fish omelette of <Unknown Quality>",
-
   "item.starcatcher_delight.healthy_fish_omelette_common": "Healthy Fish Omelette",
   "tooltip.starcatcher_delight.healthy_fish_omelette_common.0": "Raw egg, undercooked fish, and vegetables that taste of paper.",
   "tooltip.starcatcher_delight.healthy_fish_omelette_common.1": "There are no words to describe how hard it is to swallow this attempt at food.",
@@ -283,9 +265,6 @@
 
 
 
-
-  "item.starcatcher_delight.fish_and_chips": "Fish and Chips",
-  "tooltip.starcatcher_delight.fish_and_chips.0": "§7A serving of fish and chips of <Unknown Quality>",
 
   "item.starcatcher_delight.fish_and_chips_common": "Fish and Chips",
   "tooltip.starcatcher_delight.fish_and_chips_common.0": "A grotesque dish made by those who can't appreciate true fish cuisine.",

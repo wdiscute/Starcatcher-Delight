@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet_legendary"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:fish_and_chips_legendary"
+  }
+}

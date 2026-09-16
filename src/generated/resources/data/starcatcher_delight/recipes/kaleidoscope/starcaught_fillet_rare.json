@@ -1,0 +1,11 @@
+{
+  "type": "kaleidoscope_cookery:chopping_board",
+  "cut_count": 4,
+  "ingredient": {
+    "tag": "starcatcher:rare_starcaught_fishes"
+  },
+  "model_id": "kaleidoscope_cookery:salmon",
+  "result": {
+    "item": "starcatcher_delight:starcaught_fillet_rare"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher:blossomfish"
+    },
+    {
+      "item": "farm_and_charm:lettuce"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:blossom_toast"
+  }
+}

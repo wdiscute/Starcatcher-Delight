@@ -1,0 +1,22 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "item": "starcatcher:lightning_bass"
+    },
+    {
+      "item": "starcatcher:thunder_bass"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:weather_soup"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

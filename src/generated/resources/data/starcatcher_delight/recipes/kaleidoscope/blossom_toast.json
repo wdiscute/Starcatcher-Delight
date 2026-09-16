@@ -1,0 +1,22 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "item": "starcatcher:blossomfish"
+    },
+    {
+      "tag": "forge:crops/lettuce"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:pink_petals"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:blossom_toast"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

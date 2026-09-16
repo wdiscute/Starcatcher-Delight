@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet_rare"
+    },
+    {
+      "tag": "forge:crops/rice"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "starcatcher_delight:nigiri_rare"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet_rare"
+    },
+    {
+      "item": "farm_and_charm:barley"
+    },
+    {
+      "item": "farm_and_charm:barley"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:nigiri_rare"
+  }
+}

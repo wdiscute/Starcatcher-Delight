@@ -1,0 +1,28 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "item": "starcatcher:sludge_catfish"
+    },
+    {
+      "item": "kaleidoscope_cookery:tomato"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "starcatcher:worm"
+    },
+    {
+      "item": "kaleidoscope_cookery:red_chili"
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:sludge_stew"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

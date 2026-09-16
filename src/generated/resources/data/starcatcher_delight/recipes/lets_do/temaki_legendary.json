@@ -1,0 +1,26 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet_legendary"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "farm_and_charm:barley"
+    },
+    {
+      "item": "farm_and_charm:barley"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:temaki_legendary"
+  }
+}

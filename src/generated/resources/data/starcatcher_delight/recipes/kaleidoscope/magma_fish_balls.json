@@ -1,0 +1,25 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "tag": "starcatcher:worms"
+    },
+    {
+      "item": "starcatcher:magma_fish"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:magma_fish_balls"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

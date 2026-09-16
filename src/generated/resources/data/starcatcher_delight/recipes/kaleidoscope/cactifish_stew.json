@@ -1,0 +1,28 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher:cactifish"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:crops/lettuce"
+    },
+    {
+      "item": "kaleidoscope_cookery:caterpillar"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:cactifish_stew"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

@@ -43,11 +43,12 @@ public class SDCreativeTab
 
     private static void generic(ConglomerateOfItems con, StarcatcherGenericFood food)
     {
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < 5; i++)
         {
             con.add(food.get(i));
-            if (i == 5)
+            if (i == 4)
             {
+                con.add(Items.AIR);
                 con.add(Items.AIR);
                 con.add(Items.AIR);
                 con.add(Items.AIR);

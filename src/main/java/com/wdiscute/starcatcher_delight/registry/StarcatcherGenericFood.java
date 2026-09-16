@@ -15,34 +15,29 @@ public class StarcatcherGenericFood
         this.items = items;
     }
 
-    public DeferredItem<Item> getGeneric()
+    public DeferredItem<Item> getCommon()
     {
         return items.get(0);
     }
 
-    public DeferredItem<Item> getCommon()
+    public DeferredItem<Item> getUncommon()
     {
         return items.get(1);
     }
 
-    public DeferredItem<Item> getUncommon()
+    public DeferredItem<Item> getRare()
     {
         return items.get(2);
     }
 
-    public DeferredItem<Item> getRare()
+    public DeferredItem<Item> getEpic()
     {
         return items.get(3);
     }
 
-    public DeferredItem<Item> getEpic()
-    {
-        return items.get(4);
-    }
-
     public DeferredItem<Item> getLegendary()
     {
-        return items.get(5);
+        return items.get(4);
     }
 
     public DeferredItem<Item> get(int i)

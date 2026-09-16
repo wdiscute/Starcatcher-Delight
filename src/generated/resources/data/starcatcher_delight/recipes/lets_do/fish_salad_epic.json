@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet_epic"
+    },
+    {
+      "item": "farm_and_charm:lettuce"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:fish_salad_epic"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "farm_and_charm:mincer",
+  "ingredient": {
+    "tag": "starcatcher:epic_starcaught_fishes"
+  },
+  "recipe_type": "MEAT",
+  "result": {
+    "item": "starcatcher_delight:starcaught_fillet_epic"
+  }
+}

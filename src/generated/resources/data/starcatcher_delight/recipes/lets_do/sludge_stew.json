@@ -1,0 +1,29 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher:sludge_catfish"
+    },
+    {
+      "item": "farm_and_charm:rotten_tomato"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "starcatcher:worm"
+    },
+    {
+      "item": "farm_and_charm:onion"
+    },
+    {
+      "item": "farm_and_charm:lettuce"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:sludge_stew"
+  }
+}

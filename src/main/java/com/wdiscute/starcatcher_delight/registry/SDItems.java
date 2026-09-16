@@ -62,7 +62,6 @@ public interface SDItems
     {
         List<DeferredItem<Item>> list = new ArrayList<>();
 
-        list.add(GENERIC_FOODS.register(name, () -> FoodItem.generic(Rarity.NONE, nut)));
         list.add(COMMON_FOODS.register(name + "_common", () -> FoodItem.generic(Rarity.COMMON, nut)));
         list.add(UNCOMMON_FOODS.register(name + "_uncommon", () -> FoodItem.generic(Rarity.UNCOMMON, nut)));
         list.add(RARE_FOODS.register(name + "_rare", () -> FoodItem.generic(Rarity.RARE, nut)));

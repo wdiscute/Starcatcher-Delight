@@ -62,7 +62,18 @@ repositories {
 dependencies {
 
     //farmer's delight
-    modImplementation("maven.modrinth:farmers-delight:1.20.1-1.3.4")
+    modCompileOnly("maven.modrinth:farmers-delight:1.20.1-1.3.4")
+
+    //kaleidoscope cookery
+    modCompileOnly("maven.modrinth:kaleidoscope-cookery:1.4.1-forge+mc1.20.1")
+
+    //lets's do farm & charm - 1.1.23
+    modImplementation("maven.modrinth:lets-do-farm-charm:1.0.14")
+
+
+
+    //architectury
+    modImplementation("maven.modrinth:architectury-api:9.2.14+forge")
 
     //starcatcher
     modImplementation("maven.modrinth:starcatcher:3.1.4.5-FORGE-1.20.1")
@@ -74,8 +85,8 @@ dependencies {
     modImplementation("maven.modrinth:libtooltips:2.3-FORGE-1.20.1")
 
     //fancy tab sections
-    //modImplementation("maven.modrinth:fancytabsections:6.2.1-FORGE-1.20.1")
-    modImplementation("net.mcexpanded:Fancy-Tabs-Neo:6.2.2-FORGE-1.20.1")
+    modImplementation("maven.modrinth:fancytabsections:6.2.2-FORGE-1.20.1")
+    //modImplementation("net.mcexpanded:Fancy-Tabs-Neo:6.2.2-FORGE-1.20.1")
 
     //wdUtils
     modImplementation("com.wdiscute:wdUtils:1.9.3-FORGE-1.20.1")
@@ -178,10 +189,10 @@ obfuscation {
 }
 
 // Uncomment the lines below if you wish to configure mixin. The mixin file should be named modid.mixins.json.
-//mixin {
-//    add sourceSets.main, "starcatcher.mixins.refmap.json"
-//    config "starcatcher.mixins.json"
-//}
+mixin {
+    add sourceSets.main, "starcatcher.mixins.refmap.json"
+    config "starcatcher.mixins.json"
+}
 
 jar {
     manifest.attributes([

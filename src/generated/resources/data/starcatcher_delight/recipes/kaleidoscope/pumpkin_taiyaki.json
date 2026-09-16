@@ -1,0 +1,19 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "starcatcher:starcaught_fishable_fish"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:pumpkin_taiyaki"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

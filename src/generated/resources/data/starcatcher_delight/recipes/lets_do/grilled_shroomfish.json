@@ -1,0 +1,20 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher:shroomfish"
+    },
+    {
+      "item": "farm_and_charm:lettuce"
+    },
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:grilled_shroomfish"
+  }
+}

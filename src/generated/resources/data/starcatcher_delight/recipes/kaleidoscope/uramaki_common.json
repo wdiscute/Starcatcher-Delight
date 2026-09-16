@@ -1,0 +1,20 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "item": "starcatcher_delight:starcaught_fillet_common"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "tag": "forge:crops/rice"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "starcatcher_delight:uramaki_common"
+  },
+  "stir_fry_count": 3,
+  "time": 200
+}

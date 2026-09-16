@@ -1,8 +1,8 @@
-// 1.20.1	2026-09-14T16:43:56.125733	Tags for minecraft:item mod id starcatcher_delight
-da5f3983176aec4b0d3730705d6c214f6c6a62fc data/forge/tags/items/raw_fishes.json
+// 1.20.1	2026-09-16T17:39:00.4212804	Tags for minecraft:item mod id starcatcher_delight
+72374a4cebb936a60468e3fe7caea91b6251a0b4 data/forge/tags/items/raw_fishes.json
 1ad8ec27c8d311cf55f3174e3d02ecf8e1c61dfb data/starcatcher_delight/tags/items/common_dishes.json
 95f15847e752095da0e07dd868cc61cee8ca9dfa data/starcatcher_delight/tags/items/epic_dishes.json
-da5f3983176aec4b0d3730705d6c214f6c6a62fc data/starcatcher_delight/tags/items/filet_fishes.json
+72374a4cebb936a60468e3fe7caea91b6251a0b4 data/starcatcher_delight/tags/items/filet_fishes.json
 894025483799318e07c8d71bfc013dae93e66841 data/starcatcher_delight/tags/items/legendary_dishes.json
 4c0af28c55d127b4afb038053dfce4e0483ecadb data/starcatcher_delight/tags/items/rare_dishes.json
 67bf758d2b67e2a78b319b8645247c8ead7ef63c data/starcatcher_delight/tags/items/uncommon_dishes.json

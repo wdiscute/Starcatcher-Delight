@@ -1,0 +1,23 @@
+{
+  "type": "farm_and_charm:pot_cooking",
+  "container": {
+    "required": false
+  },
+  "ingredients": [
+    {
+      "item": "starcatcher:redscaled_tuna"
+    },
+    {
+      "item": "farm_and_charm:lettuce"
+    },
+    {
+      "item": "farm_and_charm:lettuce"
+    },
+    {
+      "item": "farm_and_charm:onion"
+    }
+  ],
+  "result": {
+    "item": "starcatcher_delight:steamed_redscaled_tuna"
+  }
+}
