@@ -71,6 +71,8 @@ dependencies {
     modImplementation("maven.modrinth:lets-do-farm-charm:1.0.14")
 
 
+    //apple skin
+    modRuntimeOnly("maven.modrinth:appleskin:2.5.1+mc1.20.1")
 
     //architectury
     modImplementation("maven.modrinth:architectury-api:9.2.14+forge")
@@ -98,11 +100,6 @@ dependencies {
     //NeoBackports
     modImplementation("net.nikdo53:NeoBackports:1.4.2")
     interfaceInjectionData("net.nikdo53:NeoBackports:1.4.2")
-
-    //mixin
-    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-    implementation("io.github.llamalad7:mixinextras-forge:[0.5.0,)")
-    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.5.0"))
 }
 
 java{
@@ -189,18 +186,18 @@ obfuscation {
 }
 
 // Uncomment the lines below if you wish to configure mixin. The mixin file should be named modid.mixins.json.
-mixin {
-    add sourceSets.main, "starcatcher.mixins.refmap.json"
-    config "starcatcher.mixins.json"
-}
-
-jar {
-    manifest.attributes([
-            "MixinConfigs": "${mod_id}.mixins.json"
-    ])
-
-    finalizedBy('reobfJar')
-}
+//mixin {
+//    add sourceSets.main, "starcatcher.mixins.refmap.json"
+//    config "starcatcher.mixins.json"
+//}
+//
+//jar {
+//    manifest.attributes([
+//            "MixinConfigs": "${mod_id}.mixins.json"
+//    ])
+//
+//    finalizedBy('reobfJar')
+//}
 
 
 // This block of code expands all declared replace properties

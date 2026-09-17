@@ -45,25 +45,25 @@ public class FoodItem extends Item
         if (rarity.equals(Rarity.UNCOMMON))
         {
             nut.nutrition(nut.nutrition + 1);
-            nut.saturation(nut.saturation + 1);
+            nut.saturation(nut.saturation);
         }
 
         if (rarity.equals(Rarity.RARE))
         {
             nut.nutrition(nut.nutrition + 2);
-            nut.saturation(nut.saturation + 2);
+            nut.saturation(nut.saturation);
         }
 
         if (rarity.equals(Rarity.EPIC))
         {
             nut.nutrition(nut.nutrition + 3);
-            nut.saturation(nut.saturation + 3);
+            nut.saturation(nut.saturation);
         }
 
         if (rarity.equals(Rarity.LEGENDARY))
         {
-            nut.nutrition(nut.nutrition + 5);
-            nut.saturation(nut.saturation + 5);
+            nut.nutrition(nut.nutrition + 4);
+            nut.saturation(nut.saturation);
             nut.effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 6000, 4), 1.0F);
         }
 
